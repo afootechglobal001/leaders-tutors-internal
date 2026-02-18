@@ -16,9 +16,9 @@
 <script src="<?php echo $website_url?>/admin/a/js/jquery-v3.6.1.min.js"></script>
 <script>
   let login_staff_session = JSON.parse(sessionStorage.getItem("login_staff_session"));
-  var login_staff_id=login_staff_session.staff[0].staff_id;
-  var login_access_key=login_staff_session.staff[0].access_key;
-  var login_role_id=login_staff_session.staff[0].role_id;
+  var login_staff_id=login_staff_session.staff.staff_id;
+  var login_access_key=login_staff_session.staff.access_key;
+  var login_role_id=login_staff_session.staff.role_id;
 </script>
 <script src="<?php echo $website_url?>/admin/a/js/scripts.js?v=<?php echo $code_version?>"></script>
 <script src="js/session_validation.js?v=<?php echo $code_version?>"></script>

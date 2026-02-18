@@ -5,7 +5,7 @@
 	
 	//$website_url='https://leaderstutors.com';
 	$website_url='http://localhost/leaders-network/leaders-tutors-internal';
-	$code_version = '1.60';
+	$code_version = date('Ymdhis');
 ?>
 
 <script>

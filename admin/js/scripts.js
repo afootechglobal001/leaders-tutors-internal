@@ -95,60 +95,57 @@ function _log_in() {
 }
 
 function user_login(username, password) {
-  /////////////// get btn text ////////////////
-  var btn_text = $("#login_btn").html();
-  $("#login_btn").html('Authenticating <i class="fa fa-spinner fa-spin"></i>');
-  document.getElementById("login_btn").disabled = true;
-  ////////////////////////////////////////////////
+  try {
+    /////////////// get btn text ////////////////
+    var btn_text = $("#login_btn").html();
+    $("#login_btn").html('Authenticating <i class="fa fa-spinner fa-spin"></i>');
+    document.getElementById("login_btn").disabled = true;
+    ////////////////////////////////////////////////
 
-  var dataString = "&username=" + username + "&password=" + password;
-  $.ajax({
-    type: "POST",
-    url: endPoint + "/admin/auth/login",
-    dataType: "json",
-    data: dataString,
-    cache: false,
-    headers: {
-      apiKey: apiKey,
-    },
-    success: function (data) {
-      var success = data.success;
-      var message = data.message;
-      if (success == true) {
+    var dataString = "&username=" + username + "&password=" + password;
+    $.ajax({
+      type: "POST",
+      url: endPoint + "/admin/auth/login",
+      dataType: "json",
+      data: dataString,
+      cache: false,
+      headers: {
+        apiKey: apiKey,
+      },
+      success: function (data) {
         sessionStorage.setItem("login_staff_session", JSON.stringify(data));
         $("#success-div")
-          .html('<div><i class="bi-check"></i></div> ' + message + " ")
+          .html('<div><i class="bi-check"></i></div> ' + data.message + " ")
           .fadeIn(500)
           .delay(5000)
           .fadeOut(100);
         window.parent.location = admin_portal_url;
-      } else {
+      },
+    }).catch((error) => {
+        var message = error.responseJSON
+          ? error.responseJSON.message
+          : "An error occurred. Check your internet connection and try again.";
         $("#warning-div")
           .html(
-            '<div><i class="bi-exclamation-octagon-fill"></i></div> ' +
-              message +
-              " ",
+            '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
           )
           .fadeIn(500)
           .delay(5000)
           .fadeOut(100);
         $("#login_btn").html(btn_text);
         document.getElementById("login_btn").disabled = false;
-      }
-    },
-    error: function (error) {
-      console.log(error);
-      $("#warning-div")
-        .html(
-          '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
-        )
-        .fadeIn(500)
-        .delay(5000)
-        .fadeOut(100);
-      $("#login_btn").html(btn_text);
-      document.getElementById("login_btn").disabled = false;
-    },
-  });
+      });
+    } catch (error) {
+    $("#warning-div")
+      .html(
+        '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
+      )
+      .fadeIn(500)
+      .delay(5000)
+      .fadeOut(100);
+    $("#login_btn").html(btn_text);
+    document.getElementById("login_btn").disabled = false;
+  }
 }
 
 function _proceed_reset_password() {
@@ -250,28 +247,51 @@ function _reset_password(staff_id, fullname, email) {
 }
 
 function _resend_otp(ids, staff_id) {
-  var btn_text = $("#" + ids).html();
-  $("#" + ids).html('SENDING <i class="fa fa-spinner fa-spin"></i>');
-  var dataString = "&staff_id=" + staff_id;
-  $.ajax({
-    type: "POST",
-    url: endPoint + "/admin/auth/resend-otp",
-    data: dataString,
-    cache: false,
-    headers: {
-      apiKey: apiKey,
-    },
-    success: function (data) {
-      var message = data.message;
+  try {
+    var btn_text = $("#" + ids).html();
+    $("#" + ids).html('SENDING <i class="fa fa-spinner fa-spin"></i>');
+    var dataString = "&staff_id=" + staff_id;
+    $.ajax({
+      type: "POST",
+      url: endPoint + "/admin/auth/resend-otp",
+      data: dataString,
+      cache: false,
+      headers: {
+        apiKey: apiKey,
+      },
+      success: function (data) {
+        var message = data.message;
 
-      $("#success-div")
-        .html('<div><i class="bi-check"></i></div> ' + message + " <br> " + " ")
-        .fadeIn(500)
-        .delay(5000)
-        .fadeOut(100);
-      $("#" + ids).html(btn_text);
-    },
-  });
+        $("#success-div")
+          .html('<div><i class="bi-check"></i></div> ' + message + " <br> " + " ")
+          .fadeIn(500)
+          .delay(5000)
+          .fadeOut(100);
+        $("#" + ids).html(btn_text);
+      },
+    }).catch((error) => {
+        var message = error.responseJSON
+          ? error.responseJSON.message
+          : "An error occurred. Check your internet connection and try again.";
+        $("#warning-div")
+          .html(
+            '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
+          )
+          .fadeIn(500)
+          .delay(5000)
+          .fadeOut(100);
+        $("#" + ids).html('RESEND OTP');
+      });
+  } catch (error) {
+    $("#warning-div")
+      .html(
+        '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
+      )
+      .fadeIn(500)
+      .delay(5000)
+      .fadeOut(100);
+    $("#" + ids).html('RESEND OTP');
+  }
 }
 
 ///// accept number ////
@@ -304,120 +324,126 @@ function _check_password_match() {
 }
 
 function _comfirmed_reset_password(staff_id) {
-  var otp = $("#otp").val();
-  var password = $("#password").val();
-  var confirm_password = $("#confirm_password").val();
+  try {
+    var otp = $("#otp").val();
+    var password = $("#password").val();
+    var confirm_password = $("#confirm_password").val();
 
-  $("#otp,#password,#confirm_password").removeClass("complain");
-  if (otp == "") {
-    $("#otp").addClass("complain");
-    $("#warning-div")
-      .html(
-        '<div><i class="bi-exclamation-octagon-fill"></i></div> OTP Error!  <br /><span> Kindly Fill fields to continue. </span>',
-      )
-      .fadeIn(500)
-      .delay(5000)
-      .fadeOut(100);
-  } else if (password == "") {
-    $("#password").addClass("complain");
-    $("#warning-div")
-      .html(
-        '<div><i class="bi-exclamation-octagon-fill"></i></div> Create New Password Error <br /><span> Kindly Fill fields to continue. </span>',
-      )
-      .fadeIn(500)
-      .delay(5000)
-      .fadeOut(100);
-  } else if (confirm_password == "") {
-    $("#confirm_password").addClass("complain");
-    $("#warning-div")
-      .html(
-        '<div><i class="bi-exclamation-octagon-fill"></i></div> Confirm New Password Error <br /><span> Kindly Fill fields to continue.</span>',
-      )
-      .fadeIn(500)
-      .delay(5000)
-      .fadeOut(100);
-  } else if (password != confirm_password) {
-    $("#password,#confirm_password").addClass("complain");
-    $("#warning-div")
-      .html(
-        '<div><i class="bi-exclamation-octagon-fill"></i></div> Password Error <br /><span> Password Not Match </span>',
-      )
-      .fadeIn(500)
-      .delay(5000)
-      .fadeOut(100);
-  } else if (password.length < 8) {
     $("#otp,#password,#confirm_password").removeClass("complain");
-    $("#warning-div")
-      .html(
-        '<div><i class="bi-exclamation-octagon-fill"></i></div> Password Not Accepted <br /><span> Please follow the instructon </span>',
+    if (otp == "") {
+      $("#otp").addClass("complain");
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> OTP Error!  <br /><span> Kindly Fill fields to continue. </span>',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+    } else if (password == "") {
+      $("#password").addClass("complain");
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> Create New Password Error <br /><span> Kindly Fill fields to continue. </span>',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+    } else if (confirm_password == "") {
+      $("#confirm_password").addClass("complain");
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> Confirm New Password Error <br /><span> Kindly Fill fields to continue.</span>',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+    } else if (password != confirm_password) {
+      $("#password,#confirm_password").addClass("complain");
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> Password Error <br /><span> Password Not Match </span>',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+    } else if (password.length < 8) {
+      $("#otp,#password,#confirm_password").removeClass("complain");
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> Password Not Accepted <br /><span> Please follow the instructon </span>',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+    } else if (
+      password.match(
+        /^(?=[^A-Z]*[A-Z])(?=[^!"#$%&'()*+,-.:;<=>?@[\]^_`{|}~]*[!"#$%&'()*+,-.:;<=>?@[\]^_`{|}~])(?=\D*\d).{8,}$/,
       )
-      .fadeIn(500)
-      .delay(5000)
-      .fadeOut(100);
-  } else if (
-    password.match(
-      /^(?=[^A-Z]*[A-Z])(?=[^!"#$%&'()*+,-.:;<=>?@[\]^_`{|}~]*[!"#$%&'()*+,-.:;<=>?@[\]^_`{|}~])(?=\D*\d).{8,}$/,
-    )
-  ) {
-    //////////////// get btn text ////////////////
-    var btn_text = $("#comfirmed_reset_btn").html();
-    $("#comfirmed_reset_btn").html(
-      'RESETTING <i class="fa fa-spinner fa-spin"></i>',
-    );
-    document.getElementById("comfirmed_reset_btn").disabled = true;
-    ////////////////////////////////////////////////
+    ) {
+      //////////////// get btn text ////////////////
+      var btn_text = $("#comfirmed_reset_btn").html();
+      $("#comfirmed_reset_btn").html(
+        'RESETTING <i class="fa fa-spinner fa-spin"></i>',
+      );
+      document.getElementById("comfirmed_reset_btn").disabled = true;
+      ////////////////////////////////////////////////
 
-    var dataString =
-      "&staff_id=" +
-      staff_id +
-      "&otp=" +
-      otp +
-      "&password=" +
-      password +
-      "&confirm_password=" +
-      confirm_password;
-    $.ajax({
-      type: "POST",
-      url: endPoint + "/admin/auth/create-new-password",
-      data: dataString,
-      cache: false,
-      dataType: "json",
-      cache: false,
-      headers: {
-        apiKey: apiKey,
-      },
-      success: function (data) {
-        var success = data.success;
-        var message = data.message;
-
-        if (success == true) {
+      var dataString =
+        "&staff_id=" +
+        staff_id +
+        "&otp=" +
+        otp +
+        "&password=" +
+        password +
+        "&confirm_password=" +
+        confirm_password;
+      $.ajax({
+        type: "POST",
+        url: endPoint + "/admin/auth/create-new-password",
+        data: dataString,
+        cache: false,
+        dataType: "json",
+        cache: false,
+        headers: {
+          apiKey: apiKey,
+        },
+        success: function (data) {
           _get_page("password_reset_successful");
-        } else {
-          $("#warning-div")
-            .html(
-              '<div><i class="bi-exclamation-octagon-fill"></i></div> ' +
-                message +
-                " <br />" +
-                "",
-            )
-            .fadeIn(500)
-            .delay(5000)
-            .fadeOut(100);
-          $("#otp").addClass("complain");
-        }
+        },
+      }).catch((error) => {
+        var message = error.responseJSON
+          ? error.responseJSON.message
+          : "An error occurred. Check your internet connection and try again.";
+        $("#warning-div")
+          .html(
+            '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
+          )
+          .fadeIn(500)
+          .delay(5000)
+          .fadeOut(100);
         $("#comfirmed_reset_btn").html(btn_text);
         document.getElementById("comfirmed_reset_btn").disabled = false;
-      },
-    });
-  } else {
-    $("#password,#confirm_password").addClass("complain");
+      });
+    } else {
+      $("#password,#confirm_password").addClass("complain");
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> Password Not Accepted <br /><span> Please follow the instructon </span>',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+    }
+  } catch (error) {
     $("#warning-div")
       .html(
-        '<div><i class="bi-exclamation-octagon-fill"></i></div> Password Not Accepted <br /><span> Please follow the instructon </span>',
+        '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
       )
       .fadeIn(500)
       .delay(5000)
       .fadeOut(100);
+    $("#comfirmed_reset_btn").html(btn_text);
+    document.getElementById("comfirmed_reset_btn").disabled = false;
   }
 }
 
