@@ -13,7 +13,7 @@ try {
 	validateEmptyField($username, "USERNAME");
 	validateEmptyField($password, "PASSWORD");
 	validateEmailField($username, "USERNAME");
-
+	
 	/* Secure SELECT using prepared statement */
 	$query="SELECT * FROM staff_tab WHERE email = ?";
     $params=[$username];
