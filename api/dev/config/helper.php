@@ -17,4 +17,3 @@ function validateEmailField($field, $fieldName) {
 		throw new InvalidArgumentException("INVALID $fieldName! Enter a valid email address and try again", 400);
 	}
 }
-?>

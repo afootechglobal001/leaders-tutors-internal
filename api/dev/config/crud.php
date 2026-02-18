@@ -48,4 +48,3 @@ function deleteQuery(mysqli $conn, string $query, string $types = '', array $par
 
 	return $affectedRows; /// number of affected rows for DELETE
 }
-?>
