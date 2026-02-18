@@ -1,0 +1,19 @@
+CREATE OR REPLACE VIEW STAFF_VIEW AS
+SELECT 
+    a.staff_id, 
+    a.access_key, 
+    a.fullname, 
+    a.mobile, 
+    a.email, 
+    a.address,  
+    a.profile_pix, 
+    a.role_id, 
+    a.status_id, 
+    a.created_time, 
+    a.updated_time, 
+    a.last_login_time, 
+    b.role_name, 
+    c.status_name
+FROM  staff_tab a
+JOIN setup_role_tab b ON a.role_id=b.role_id
+JOIN setup_status_tab c ON a.status_id=c.status_id;

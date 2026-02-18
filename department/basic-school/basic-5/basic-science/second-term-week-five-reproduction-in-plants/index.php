@@ -1,0 +1,8 @@
+<?php include '../../../../config/constants.php';?>
+<?php $tutorial_id='TUT604';?>
+<?php $urls='second-term-week-five-reproduction-in-plants';?>
+<?php $department_urls='basic-school';?>
+<?php $class_urls='basic-5';?>
+<?php $subject_urls='basic-science';?>
+<?php $page_seo_pix='TUT604__5. BAS. P5ST. WK5.png';?>
+<?php include '../../../../topic-content-details.php';?>

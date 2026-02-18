@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header-div{
+	width:100%;
+	top:0px;
+	right:0px;
+	height:70px;
+	position:fixed;
+    background-color: var(--white-color);
+	z-index:10;
+}
+
+.header-div .header-div-in{
+	width:96%;
+	margin:auto;
+}
+
+.header-div .header-div-in .logo-div{
+	width:120px;
+	float: left;
+	margin-top: 8px;
+}
+
+.header-div .header-div-in .logo-div img{
+    width: 100%;
+}
+
+.header-div .header-div-in .header-nav-div{
+	float:left;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+.header-div .header-div-in .notification{
+	min-width:40px;
+	height:30px;
+	padding-top:12px;
+	color:var(--sub-body-color);
+	text-align:center;
+	font-size:17px;
+	float:right;
+	margin:15px 15px 0px 5px;
+	border-radius:3px;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-ms-transition:all ease 0.2s;
+	-o-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+	cursor:pointer;
+}
+.header-div .header-div-in .notification:hover{
+	background: var(--bg-color);
+}
+
+.header-div .header-div-in .bell_notification div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 17px;
+	height: 17px;
+	background: #E1201F;
+	border-radius: 100%;
+	float: right;
+	margin-right: 5px;
+	margin-left: -10px;
+	color: #FCFCFC;
+	line-height: 7px;
+	font-size: 8px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-div .header-div-in .header-profile-pix-div{
+	height: 50px;
+	margin-top: 10px;
+	width: 220px;
+	float: right;
+	cursor: pointer;
+	background-color:var(--white-color);
+
+}
+
+.header-div .header-div-in .header-profile-pix-div .div-in{
+    padding: 5px 0px;
+}
+
+.header-div .header-div-in .header-profile-pix-div .img-div{
+	height: 40px;
+	width: 40px;
+	float: right;
+	border-radius: 100%;
+}
+
+.header-div .header-div-in .header-profile-pix-div  .img-div img{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	object-fit: cover;
+}
+
+.header-div .header-div-in .header-profile-pix-div .info{
+    width: calc(200px - 80px);
+    font-size: 11px;
+	float: left;
+	padding-left: 20px;
+    overflow: hidden;
+    color: var(--body-color);
+	border-left: #70818b 1px dashed;
+
+  }
+
+.header-div .header-div-in .header-profile-pix-div .info .name{
+    width:200px;
+    height:18px;
+    overflow:hidden;
+    font-size: 14px;
+    color: var(--sub-body-color);
+}
+
+.header-div .header-div-in .header-profile-pix-div .info .role{
+   font-size: 12px;
+   color: var(--main-color);
+}
+
+.header-div .header-div-in .header-profile-pix-div:hover .role{
+    color: var(--active-color);
+    transition:all 0.2s ease-in 0.2s;
+    -moz-transition:all 0.2s ease-in 0.2s;
+    -webkit-transition:all 0.2s ease-in 0.2s;
+    -ms-transition:all 0.2s ease-in 0.2s;
+    -o-transition:all 0.2s ease-in 0.2s;
+  }
+
+
+
+
+.header-div .header-div-in .toggle-profile-div{
+	top:70px;
+	padding:10px;
+	width:290px;
+	background:#F4F4F4;
+	height: auto;
+	position:absolute;
+	right:1.5%;
+	display:none;
+	border-radius:3px;
+}
+.header-div .header-div-in .toggle-profile-div:after{
+	content:"";
+	width:0px;
+	height:0px;
+	position: absolute;
+	border:15px solid;
+	border-color:  transparent  transparent  #F4F4F4 transparent;
+	right:20px;
+	top:-20px;
+}
+
+.header-div .header-div-in .toggle-profile-pix-div{
+	width:80px;
+	height:95px;
+	overflow:hidden;
+	border:#ecf0f1 2px solid;
+	border-radius:3px;
+	float:left;
+	background:#FCFCFC;
+}
+.header-div .header-div-in .toggle-profile-pix-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.header-div .header-div-in .toggle-profile-name{
+	margin-top:10px;
+	width:200px;
+	height:18px;
+	font-size:13px;
+	float:right;
+	line-height:18px;
+	overflow:hidden;
+	color: var(--body-color);
+}
+.header-div .header-div-in .toggle-profile-others{
+	margin-top:2px;
+	width:200px;
+	height:30px;
+	font-size:10px;
+	float:right;
+	line-height:16px;
+	overflow:hidden;
+	color:#7f8c8d;
+}
+.header-div .header-div-in .logout-btn{
+	min-width:90px;
+	margin-top:7px;
+	margin-right:5px;
+	padding:10px;
+	background:#444;
+	border:none;
+	color:#ecf0f1;
+	font-family:body-font;
+	font-size:12px;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-ms-transition:all ease 0.2s;
+	-o-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+	cursor:pointer;
+	float:right;
+}
+
+
+.header-div .header-div-in .logout-btn:hover{
+	opacity:.8;
+}
+
+
+
+
+.header-div .header-div-in .menu-div{
+	display:none;
+	margin:10px;
+	margin-right:0px;
+	padding-top:5px;
+	width:40px;
+	height:35px;
+	float:left;
+	text-align:center;
+	font-size:30px;
+	background:rgba(255, 255, 255,.2);
+	color:var(--white-color);
+	cursor:pointer;
+	-moz-transition:all 0.2s ease-in 02s;
+	transition:all 0.2s ease-in 0.2s;
+	-webkit-transition:all 0.2s ease-in 0.2s;
+	-ms-transition:all 0.2s ease-in 0.2s;
+	-o-transition:all 0.2s ease-in 0.2s;
+}
+.header-div .header-div-in .menu-div:hover{
+	opacity:.7;
+}
+
+@media all and (max-width:700px) {
+.header-div .header-div-in .menu-div{
+display:block;
+}
+}
+
+@media all and (max-width:430px) {
+.header-div .header-div-in .menu-div{
+	float:right;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.side-nav-div{
+	position:fixed;
+	width:100px;
+	left:0px;
+	top: 70px;
+	height:100%;
+	bottom:0px;
+	background-color: var(--white-color);
+	z-index:100;
+}
+
+
+
+
+
+
+
+
+
+
+.side-nav-div .nav-div, .side-nav-div .active-li{
+	height:45px;
+	padding: 10px 5px;
+	text-align:center;
+	line-height:15px;
+	color: var(--body-color);
+	font-size:11px;
+	margin-top: 3px;
+	cursor:pointer;
+	-moz-transition:all 0.2s ease-in 02s;
+	transition:all 0.2s ease-in 0.2s;
+	-webkit-transition:all 0.2s ease-in 0.2s;
+	-ms-transition:all 0.2s ease-in 0.2s;
+	-o-transition:all 0.2s ease-in 0.2s;
+}
+.side-nav-div .nav-div:hover,  .side-nav-div .active-li{
+	color: var(--main-color);
+}
+.side-nav-div .nav-div .icon{
+	height:25px;
+	width:25px;
+	margin:0px auto 5px auto ;
+	font-size:27px;
+	text-align:center;
+	line-height:30px;
+}
+
+.hidden{
+	display:none;
+}
+
+@media all and (max-width:700px) {
+.side-nav-div{
+	left:-100px;
+}
+}
+

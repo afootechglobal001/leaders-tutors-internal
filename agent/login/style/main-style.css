@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login-session{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #03001e;
+}
+
+
+.login-session .graphics-div{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-session .graphics-div .content{
+    min-height: 100px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.login-session .graphics-div .content .logo-div{
+    width: 180px;
+}
+
+.login-session .graphics-div .content .logo-div img{
+    width: 100%;
+}
+
+.login-session .graphics-div .content .graphics{
+    width: 100%;
+}
+
+.login-session .graphics-div .content .graphics img{
+    width: 100%;
+}
+
+.login-session .graphics-div .content h2{
+    color: var(--text-white);
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+.login-session .graphics-div .content h2 span{
+    color: var(--secondary-color);
+    font-family: body-font;
+}
+ 
+
+
+
+
+.login-session .login-div{
+    position: absolute;
+    width:50%;
+    height: 100%;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--bg-white);
+    overflow: auto;
+}
+
+.login-session .login-div .form-back-div {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-session .login-div .form-back-div .form-div{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: var(--body-color);
+}
+
+.login-session .login-div .form-back-div .form-div .top-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.login-session .login-div .form-back-div .form-div span{
+    color: var(--text-color);
+    cursor: pointer;
+}
+.login-session .login-div .form-back-div .form-div .top-div .logo-div{
+    width: 80px;
+    height: 80px;
+    background-color: var(--bg-white);
+    border-radius: 100%;
+    overflow: hidden;
+    border: var(--secondary-color) 1px solid;
+    display: none;
+}
+.login-session .login-div .form-back-div .form-div .top-div .logo-div img{
+    width: 100%;
+}
+
+.login-session .login-div .form-back-div .form-div .top-div h1{
+    color: var(--text-color);
+    font-size: 35px;
+    line-height: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+.login-session .login-div .form-back-div .form-div .top-div h1 span{
+    color: var(--body-color);
+    font-family: body-font;
+    font-size: 20px;
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: var(--body-color) 1px solid;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form .btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: sub-title-font;
+    font-size: 16px;
+    background: var(--text-color);
+    color: var(--text-white);
+    cursor: pointer;
+    transition: all 0.2s ease-in 0.2s;
+}
+.login-session .login-div .form-back-div .form-div .inner-form .btn:hover{
+    background: var(--secondary-color);
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form .btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form .btn-div .btn{
+    width: 25%;
+    min-width: 130px;
+    height: 40px;
+    border: none;
+    font-family: sub-title-font;
+    background: var(--text-color);
+    color: var(--text-white);
+    cursor: pointer;
+    transition: all 0.2s ease-in 0.2s;
+    border-radius: 0px 3px 3px 0px;
+    font-size: 13px;
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form .btn-div .previous-btn{
+    border-radius: 3px 0px 0px 3px;
+    background: #dddcdc;
+    color: var(--body-color);
+}
+
+.login-session .login-div .form-back-div .form-div p{
+   padding: 0px;
+   margin: 0px;
+}
+
+
+
+.login-session .login-div .form-back-div .form-div .inner-form .title{
+   font-size: 14px;
+   font-family: body-font;
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form .title{
+    font-size: 12px;
+    font-family: body-font;
+}
+ 
+
+
+.login-session .login-div .form-back-div .form-div .inner-form .pix-div{
+    width: 100%;
+	height: 220px;
+	margin: 15px 0px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.login-session .login-div .form-back-div .form-div .inner-form .pix-div img{
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+    cursor: pointer;
+	border-radius: 5px;
+}
+
+
+
+@media all and (max-width:850px) {
+    .login-session{
+        overflow: auto;
+    }
+    .login-session .graphics-div{
+        display: none;
+    }
+    .login-session .login-div{
+        width:100%;
+    }
+    .login-session .login-div .form-back-div .form-div .logo-div{
+        display: block;
+    }
+} 
+@media all and (max-width:440px) {
+    .login-session .login-div .form-back-div .form-div{
+        width: 90%;    
+    }
+    
+}     
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+.caption-div{
+	width:500px;
+	min-height:200px;
+	background:#FFF;
+	border-radius:7px;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+}
+.caption-div .title-div{
+    width: calc(100% - 40px);
+    height: 50px;
+    background: #03001e;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-white);
+    font-family: sub-title-font;
+}
+
+.caption-div .title-div .title{ 
+    color: var(--secondary-color);
+}
+
+.caption-div .title-div .close-btn{
+    font-family: sub-title-font;
+    border: var(--body-color) 1px solid;
+    height: 35px;
+    padding: 0px 13px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .2);
+    cursor: pointer;
+    transition: all 0.2s ease-in 0.2s;
+	transition:all 0.2s ease-in 0.2s;
+	-moz-transition:all 0.2s ease-in 0.2s;
+	-webkit-transition:all 0.2s ease-in 0.2s;
+	-ms-transition:all 0.2s ease-in 0.2s;
+	-o-transition:all 0.2s ease-in 0.2s;
+}
+
+.caption-div .title-div .close-btn i{
+	font-size: 12px;
+    color: var(--text-white);
+}
+.caption-div .title-div .close-btn:hover{
+	opacity: .5;
+}
+
+.caption-div .div-in{
+	padding:30px;
+}
+
+.caption-div .div-in .btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: sub-title-font;
+    font-size: 16px;
+    background: var(--text-color);
+    color: var(--text-white);
+    cursor: pointer;
+    transition: all 0.2s ease-in 0.2s;
+}
+.caption-div .div-in .btn:hover{
+    background: var(--secondary-color);
+}
+.caption-div .div-in #resendOtpBtn{
+    cursor: pointer;
+    display: none;
+}
+.caption-div .div-in #resendOtpBtn:hover{
+    text-decoration: underline;
+}
+
+@media all and (max-width:450px) {
+	.caption-div{
+        width:340px;
+        min-height:200px;
+    }
+
+    .caption-div .div-in{
+        padding:15px 20px 35px 20px;
+    }
+} 
+
+

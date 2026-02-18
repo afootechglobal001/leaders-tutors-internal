@@ -1,0 +1,7 @@
+CREATE OR REPLACE VIEW BRANCH_VIEW AS
+SELECT 
+a.*, b.statusName, CONCAT(c.firstName, ' ', c.lastName) AS managerName, d.countryName
+FROM 
+BRANCH_COUNTRY_TAB a, SETUP_STATUS_TAB b, STAFF_TAB c, COUNTRY_TAB d
+WHERE
+a.statusId=b.statusId AND a.managerId=c.staffId AND a.countryId=d.countryId;

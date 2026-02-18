@@ -1,0 +1,9 @@
+CREATE OR REPLACE VIEW USER_VIEW AS
+SELECT a.userId, a.accessKey, a.walletBalance, a.firstName, a.lastName, a.emailAddress, a.phoneNumber, a.lastLoginDate, a.countryId, a.userTypeId, a.statusId, b.countryName, b.countryFlag, b.currency, c.userTypeName, d.statusName FROM 
+USERS_TAB a
+JOIN
+COUNTRY_TAB b ON a.countryId=b.countryId
+JOIN
+SETUP_USER_TYPE_TAB c ON a.userTypeId = c.userTypeId
+JOIN 
+SETUP_STATUS_TAB d ON a.statusId=d.statusId;

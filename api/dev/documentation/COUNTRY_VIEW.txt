@@ -1,0 +1,7 @@
+CREATE OR REPLACE VIEW COUNTRY_VIEW AS
+SELECT 
+a.*, b.statusName
+FROM 
+COUNTRY_TAB a, SETUP_STATUS_TAB b
+WHERE
+a.statusId=b.statusId;

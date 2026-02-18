@@ -1,0 +1,10 @@
+[10-Feb-2026 00:23:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'amount' at row 1 in /home/leaderst/public_html/api/dev/user/transactions/load-wallet-pending.php:56
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/user/transactions/load-wallet-pending.php(56): mysqli_query(Object(mysqli), 'INSERT INTO `pa...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/user/transactions/load-wallet-pending.php on line 56
+[10-Feb-2026 00:23:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'amount' at row 1 in /home/leaderst/public_html/api/dev/user/transactions/load-wallet-pending.php:56
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/user/transactions/load-wallet-pending.php(56): mysqli_query(Object(mysqli), 'INSERT INTO `pa...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/user/transactions/load-wallet-pending.php on line 56

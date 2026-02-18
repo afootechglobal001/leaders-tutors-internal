@@ -1,0 +1,30 @@
+CREATE OR REPLACE VIEW TRANSACTIONS_VIEW AS
+         SELECT
+             a.transactionId,
+             a.userId,
+             a.transactionTypeId,
+             a.paymentMethodId,
+             a.emailAddress,
+             a.currency,
+             a.balanceBefore,
+             a.amount,
+             a.balanceAfter,
+             a.statusId,
+             b.phoneNumber,
+             b.firstName,
+             b.lastName,
+             c.transactionTypeName,
+             d.paymentMethodName,
+             e.statusName,
+             a.createdTime,
+             a.updatedTime
+         FROM
+             TRANSACTION_TAB a
+         JOIN
+             USERS_TAB b ON a.userId = b.userId
+             JOIN
+             SETUP_TRANSACTION_TYPE_TAB c ON a.transactionTypeId = c.transactionTypeId
+             JOIN
+             SETUP_PAYMENT_METHOD_TAB d ON a.paymentMethodId = d.paymentMethodId
+             JOIN
+             SETUP_STATUS_TAB e ON a.statusId = e.statusId;

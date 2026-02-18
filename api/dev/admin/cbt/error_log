@@ -1,0 +1,1512 @@
+[10-Feb-2026 14:18:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[10-Feb-2026 14:18:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:31:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:31:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:32:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:33:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:34:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:34:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 08:35:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:04:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:05:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:11:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:12:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:13:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:20:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:22:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:27:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:27:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 09:28:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 11:39:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 11:46:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 13:48:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 13:49:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[11-Feb-2026 15:05:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[12-Feb-2026 09:12:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[12-Feb-2026 09:13:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 09:14:14 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/leaderst/public_html/api/dev/admin/cbt/fetch-question-bank-by-tutorial.php on line 25
+[13-Feb-2026 09:14:25 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/leaderst/public_html/api/dev/admin/cbt/fetch-question-bank-by-tutorial.php on line 25
+[13-Feb-2026 10:42:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 10:43:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 10:43:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 10:46:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 10:46:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 11:07:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 11:07:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 11:30:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 11:33:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 12:56:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 12:56:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 12:56:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 12:57:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 12:57:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 12:58:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 13:01:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[13-Feb-2026 13:03:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 08:05:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 08:05:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 08:06:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 08:06:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 10:51:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 11:42:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 11:42:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 11:42:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 11:47:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0C' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 11:52:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0C' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 11:58:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:35:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s vie...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:35:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s vie...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:38:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t be ...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:38:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t be ...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:40:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0\xA0\xA0\xA0\xA0...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:40:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0\xA0\xA0\xA0\xA0...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:41:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:41:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:41:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0\xA0\xA0\xA0\xA0...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:42:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t be ...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:48:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0 is c...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:48:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s Own...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:49:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s Own...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:50:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s vie...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:50:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:51:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0\xA0\xA0\xA0\xA0...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:51:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'answer' at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:53:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:53:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:53:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 12:53:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:55:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 12:56:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t sha...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 12:56:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t sha...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 12:57:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t sha...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 12:59:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t sha...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 13:00:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s eth...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:00:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:00:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:01:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s fam...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:01:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92 cont...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 13:01:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92 cont...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 13:01:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xD7 Widt...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 13:02:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:03:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s pop...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 13:03:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xD7 Widt...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 13:03:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s eth...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:04:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:04:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s eth...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:05:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s fam...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:05:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dep...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:06:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s min...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:07:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dep...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:07:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s min...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:09:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dis...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:10:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s res...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 13:14:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s mai...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:15:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s Law' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:16:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'QUES1073233202602160116' for key 'question_id' in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:16:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'QUES1073234202602160116' for key 'question_id' in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:16:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s rel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:17:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s Gre...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:17:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s Law' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:18:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s rel...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:20:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dec...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 13:21:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:21:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s res...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 13:23:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB0' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:23:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s min...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:24:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dis...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:24:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s pro...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 13:25:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s mai...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:28:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x91commu...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:30:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xD7CL + ...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:31:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xD7CL + ...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:34:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t wea...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:35:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dea...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 13:37:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s wil...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:38:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xD7CL + ...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:38:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s wil...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:42:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s res...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:43:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s res...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 13:44:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0Value...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 13:51:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 perc...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 13:52:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 % ch...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:03:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0Value...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 14:05:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 perc...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:07:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 % ch...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:09:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dea...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 14:10:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dea...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 14:13:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB6)' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:105
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(105): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 105
+[16-Feb-2026 14:21:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s Own...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:22:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 Quan...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:24:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 VIII' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:25:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x93econo...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:27:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s ave...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:27:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s ave...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:27:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xF7 VIII' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:28:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBD from...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:28:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB3' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:29:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xD7 Quan...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:29:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBD from...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:31:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBC hour...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:33:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBC hour...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:34:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBD.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:39:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:41:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBE' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 14:42:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBE' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 14:49:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s con...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 14:51:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s bud...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 14:53:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s sta...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 14:57:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s con...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 15:00:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBE' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:98
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(98): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 98
+[16-Feb-2026 15:00:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85 ...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:01:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85 ...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:03:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s pro...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 15:04:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s pro...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[16-Feb-2026 15:09:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 15:09:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 15:09:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 15:10:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 15:15:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 15:16:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBD lite...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:16:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xBD litr...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:16:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:16:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:17:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:19:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:21:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:26:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:33:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:33:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:35:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..the...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:36:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..the...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 15:47:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t kno...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:105
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(105): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 105
+[16-Feb-2026 15:47:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t kno...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:105
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(105): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 105
+[16-Feb-2026 15:48:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t kno...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:105
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(105): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 105
+[16-Feb-2026 15:49:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92t kno...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:105
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(105): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 105
+[16-Feb-2026 16:00:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0to m...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 16:00:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:01:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:02:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:09:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0to m...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[16-Feb-2026 16:10:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:10:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:10:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:11:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x93do or...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:11:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:15:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:16:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:16:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:16:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:16:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:16:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:17:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x93do or...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:19:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x93do or...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:20:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x93do or...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:21:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x93do or...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[16-Feb-2026 16:25:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:33:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..the...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:33:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..the...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:34:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..the...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:34:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..ten...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:34:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..ten...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:34:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..ten...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:42:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:42:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:43:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:44:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:45:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:47:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:47:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[17-Feb-2026 07:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:50:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 07:53:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85........' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 08:00:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 08:33:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xB2, wha...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 10:51:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s pro...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[17-Feb-2026 11:00:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dep...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:00:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dep...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:04:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s dea...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[17-Feb-2026 11:08:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s nam...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:91
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(91): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 91
+[17-Feb-2026 11:12:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s cus...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:18:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0\xA0to m...' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:86
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(86): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 86
+[17-Feb-2026 11:20:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:20:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:20:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:21:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:22:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:23:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:23:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:24:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:26:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:26:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:27:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:27:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:28:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xA0to de...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:29:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:30:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85 ...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:30:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:30:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:31:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:32:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:32:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:33:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:33:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:34:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:35:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:36:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85......' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:36:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:37:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:39:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:40:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:41:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:41:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:42:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:43:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:43:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85.....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:44:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.. Is...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:44:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.. Is...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:45:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:45:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:45:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:45:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:45:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85....' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:46:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85\x85\x85\x85\x85\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 11:47:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.. Is...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 12:03:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 12:11:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:00:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:00:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:06:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\xE6/' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:14:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:19:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:25:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85.' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:35:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 13:49:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 14:03:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 14:03:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:80
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(80): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 80
+[17-Feb-2026 14:16:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:83
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(83): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 83
+[17-Feb-2026 14:18:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:19:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:19:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:29:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:32:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:33:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:37:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:38:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:46:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:46:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:47:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x85..gro...' for column `leaderst_dev_db`.`cbt_question_bank_tab`.`question_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:81
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(81): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 81
+[17-Feb-2026 14:57:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:107
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(107): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 107
+[17-Feb-2026 15:05:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect string value: '\x92s' for column `leaderst_dev_db`.`cbt_options_tab`.`option_text` at row 1 in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:107
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(107): mysqli_query(Object(mysqli), 'INSERT INTO `cb...')
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 107
+[17-Feb-2026 15:08:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'question_id' in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:99
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 99
+[17-Feb-2026 15:09:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'question_id' in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:99
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 99
+[17-Feb-2026 15:09:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'question_id' in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:99
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 99
+[17-Feb-2026 15:09:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'question_id' in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php:99
+Stack trace:
+#0 /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/leaderst/public_html/api/dev/admin/cbt/add-quiz-question-automatically.php on line 99

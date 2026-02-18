@@ -1,0 +1,8 @@
+<?php include '../../../../config/constants.php';?>
+<?php $tutorial_id='TUT083';?>
+<?php $urls='second-term-basic-one-uses -of -computer- in- the -hospital';?>
+<?php $department_urls='basic-school';?>
+<?php $class_urls='basic-1';?>
+<?php $subject_urls='computer-science';?>
+<?php $page_seo_pix='TUT083__7.  ICT. P1ST. WK7..png';?>
+<?php include '../../../../topic-content-details.php';?>
