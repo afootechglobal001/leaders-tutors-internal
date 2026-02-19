@@ -186,6 +186,8 @@ function _proceed_reset_password() {
         },
         success: function (data) {
           _reset_password(data.staff_id, data.fullname, data.email);
+          $("#reset_password_btn").html(btn_text);
+        document.getElementById("reset_password_btn").disabled = false;
         },
       }).catch((error) => {
         var message = error.responseJSON
