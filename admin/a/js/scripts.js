@@ -4252,120 +4252,138 @@ function _checkAll(){
 
 
 function _get_fetch_question_bank(tutorial_id) {
-  $('#fetch_all_question_bank').html('<div class="ajax-loader cbt-ajax-loader"><img src="all-images/images/ajax-loader2.gif"/></div>').fadeIn(500);
-  const dataString = 'tutorial_id=' + tutorial_id;
- 
-  $.ajax({
-    type: "POST",
-    url: endPoint + '/admin/cbt/fetch-question-bank-by-tutorial',
-    data: dataString,
-    dataType: "json",
-    cache: false,
-    headers: {
-      'apiKey': apiKey,  
-      'Authorization': 'Bearer '+ login_access_key
-        },
-    success: function (info) {
-      const fetch = info.questions;
-      const success = info.success;
-      const message = info.message;
-      const quiz_status = info.quiz_status;
+  try {
+    $('#fetch_all_question_bank').html('<div class="ajax-loader cbt-ajax-loader"><img src="all-images/images/ajax-loader2.gif"/></div>').fadeIn(500);
+    const dataString = 'tutorial_id=' + tutorial_id;
+  
+    $.ajax({
+      type: "POST",
+      url: endPoint + '/admin/cbt/fetch-question-bank-by-tutorial',
+      data: dataString,
+      dataType: "json",
+      cache: false,
+      headers: {
+        'apiKey': apiKey,  
+        'Authorization': 'Bearer '+ login_access_key
+      },
+      success: function (info) {
+        const fetch = info.questions;
+        const success = info.success;
+        const message = info.message;
+        const quiz_status = info.quiz_status;
 
-      let no=0;
-      let text = '';
-      if (success == true) {
-        if (!fetch || (Array.isArray(fetch) && fetch.length === 0)) {
+        let no=0;
+        let text = '';
+        for (let i = 0; i < fetch.length; i++) {
+          no++;
+          const question_id = fetch[i].question_id;
+          const question_text = fetch[i].question_text;
+          const question_pix = fetch[i].question_pix;
+          const questionsStoragePath = fetch[i].questionsStoragePath;
+          const options = fetch[i].options;
+          const answer = fetch[i].answer;
+
           text +=
-          '<div class="false-notification-div">' +"<p> " + message +" </p>" +"</div>";
-        } else {
-          for (let i = 0; i < fetch.length; i++) {
-            no++;
-            const question_id = fetch[i].question_id;
-            const question_text = fetch[i].question_text;
-            const question_pix = fetch[i].question_pix;
-            const questionsStoragePath = fetch[i].questionsStoragePath;
-            const options = fetch[i].options;
-            const answer = fetch[i].answer;
+          '<div class="question-div" id="question_'+ question_id +'">'+
+            '<div class="div-in">'+
+              '<div class="check-div">'+
+                '<label>'+
+                    '<input type="checkbox" class="child" name="question_id[]" data-value="'+ question_id +'">'+
+                    '<span>Question '+ no +'</span>'+
+                '</label>'; 
 
-            text +=
-            '<div class="question-div" id="question_'+ question_id +'">'+
-              '<div class="div-in">'+
-                '<div class="check-div">'+
-                  '<label>'+
-                      '<input type="checkbox" class="child" name="question_id[]" data-value="'+ question_id +'">'+
-                      '<span>Question '+ no +'</span>'+
-                  '</label>'; 
-
-                  if(quiz_status=='7'){
-                    text +=
-                    '<div class="btn-div">'+                    
-                      '<button class="btn" title="Edit Question" onclick="_fetch_each_question(' +"'load_questions_manually'" +"," +"'" + tutorial_id +"'" +"," +"'" + question_id +"'"+')"><i class="bi-pencil-square"></i> Edit</button>'+
-                      '<button class="btn delete-btn" id="del_btn_'+ question_id +'" title="Delete Question" onclick="_delete_question('+ "'" + question_id + "'" + ')"><i class="bi-trash"></i></button>'+             
-                    '</div>';
-                  }
+                if(quiz_status=='7'){
                   text +=
-                '</div>'+
-
-                '<div class="each-question">';
-                  if(!(question_pix=='avatar.jpg')){
-                    text += '<div class="pix-div"><img src="'+ questionsStoragePath+ '/'+ question_pix +'" alt="'+ question_id +'"/></div>';
-                  }
-
-                  text +=
-                  '<div class="text-div">'+
-                    '<div>'+ question_text +'</div>'+
-                    '<div class="options-div">';
-
-                      for (let j = 0; j < options.length; j++) {
-                        const option_id = options[j].option_id;
-                        const option_text = options[j].option_text;
-                        const option_pix = options[j].option_pix;
-                        const optionsStoragePath = options[j].optionsStoragePath;
-                        
-                        if ((option_id==answer)){
-                          text +=
-                          '<div class="each-option correct-option">'+                             
-                            '<div class="letter">'+ option_id +'</div>';
-                            if(!(option_pix=='avatar.jpg')){
-                              text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
-                            }
-                            text +=
-                            '<div>'+ option_text +'</div>'+
-                          '</div>';                       
-                        }else{
-                          text +=
-                          '<div class="each-option">'+                               
-                            '<div class="letter">'+ option_id +'</div>';
-                            if(!(option_pix=='avatar.jpg')){
-                              text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
-                            }
-                            text +=
-                            '<div>'+ option_text +'</div>'+
-                          '</div>';
-                        }     
-                      }
-                    text += '</div>'+ 
-                  '</div>'+
-                '</div>'+         
+                  '<div class="btn-div">'+                    
+                    '<button class="btn" title="Edit Question" onclick="_fetch_each_question(' +"'load_questions_manually'" +"," +"'" + tutorial_id +"'" +"," +"'" + question_id +"'"+')"><i class="bi-pencil-square"></i> Edit</button>'+
+                    '<button class="btn delete-btn" id="del_btn_'+ question_id +'" title="Delete Question" onclick="_delete_question('+ "'" + question_id + "'" + ')"><i class="bi-trash"></i></button>'+             
+                  '</div>';
+                }
+                text +=
               '</div>'+
-            '</div>';          
-          }  
+
+              '<div class="each-question">';
+                if(!(question_pix=='avatar.jpg')){
+                  text += '<div class="pix-div"><img src="'+ questionsStoragePath+ '/'+ question_pix +'" alt="'+ question_id +'"/></div>';
+                }
+
+                text +=
+                '<div class="text-div">'+
+                  '<div>'+ question_text +'</div>'+
+                  '<div class="options-div">';
+
+                    for (let j = 0; j < options.length; j++) {
+                      const option_id = options[j].option_id;
+                      const option_text = options[j].option_text;
+                      const option_pix = options[j].option_pix;
+                      const optionsStoragePath = options[j].optionsStoragePath;
+                      
+                      if ((option_id==answer)){
+                        text +=
+                        '<div class="each-option correct-option">'+                             
+                          '<div class="letter">'+ option_id +'</div>';
+                          if(!(option_pix=='avatar.jpg')){
+                            text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
+                          }
+                          text +=
+                          '<div>'+ option_text +'</div>'+
+                        '</div>';                       
+                      }else{
+                        text +=
+                        '<div class="each-option">'+                               
+                          '<div class="letter">'+ option_id +'</div>';
+                          if(!(option_pix=='avatar.jpg')){
+                            text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
+                          }
+                          text +=
+                          '<div>'+ option_text +'</div>'+
+                        '</div>';
+                      }     
+                    }
+                  text += '</div>'+ 
+                '</div>'+
+              '</div>'+         
+            '</div>'+
+          '</div>';          
         }    
         $('#fetch_all_question_bank').html(text);
-         _checkAll();
-      } else {
+        _checkAll();
         const response = info.response;
         if (response < 100) {
           _logout();
         }
-        text +=
-          '<div class="false-notification-div">' +
-            "<p> " + message +" </p>" +
-          "</div>";
-        $('#fetch_all_question_bank').html(text);
-      }
-    },
-  });
+      },
+    }).catch((error) => {
+      const message = error.responseJSON
+        ? error.responseJSON.message
+        : "An error occurred. Please try again";
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+        $("#fetch_all_question_bank").html(`
+          <div class="false-notification-div">
+            <p> ${message} </p>
+          </div>`
+        );
+    });
+  } catch (error) {
+    $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+        $("#fetch_all_question_bank").html(`
+          <div class="false-notification-div">
+            <p> An error occurred. Please try again </p>
+          </div>`
+        );
+  }
 }
 
 
