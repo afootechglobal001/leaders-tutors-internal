@@ -4268,8 +4268,6 @@ function _get_fetch_question_bank(tutorial_id) {
       },
       success: function (info) {
         const fetch = info.questions;
-        const success = info.success;
-        const message = info.message;
         const quiz_status = info.quiz_status;
 
         let no=0;
