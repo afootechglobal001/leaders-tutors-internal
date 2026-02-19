@@ -269,4 +269,3 @@ function _get_agent_details($conn,$company_id,$email){
 }
 }//end of class
 $callclass=new allClass();
-?>

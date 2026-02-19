@@ -25,9 +25,10 @@ $cbtQuestionPixPath= '../../../uploaded-files/dev/cbt-question-pix/';
 $cbtOptionPixPath= '../../../uploaded-files/dev/cbt-option-pix/';
 $cbtQuestionTemplatePath='../../../uploaded-files/dev/cbt-question-template/';
 $companyLogoPath='../../../uploaded-files/dev/company-logo/';
-?>
 
-<?php
+
+
+
 $checkBasicSecurity=true;
 ///// check for API security
 if ($frontEndApiKey!=$backEndApiKey){/// start if 1
@@ -41,4 +42,3 @@ if ($frontEndApiKey!=$backEndApiKey){/// start if 1
 $json = file_get_contents('php://input');
 // Decode the JSON into an associative array
 $data = json_decode($json, true);
-?>

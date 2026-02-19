@@ -63,8 +63,12 @@ class NotFoundException extends ApiException
         parent::__construct($message, 404);
     }
 }
-?>
-<?php
+
+
+
+
+
+
 class ErrorHandler
 {
     public static function handle(Throwable $e): void
@@ -145,4 +149,3 @@ class ErrorHandler
         );
     }
 }
-?>

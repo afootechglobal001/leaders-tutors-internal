@@ -127,7 +127,7 @@ try {
 	///update tutorial
 	$query="UPDATE `tutorial_tab` SET `subject_id`=?, `term_id`=?, `department_id`=?, `class_id`=?, `week_id`=?, `series_id`=?, `topic`=?, `urls`=?, `seo_keywords`=?, `seo_description`=?, `summary`=?, `thumbnail`=?, `video`=?, `duration`=?, `material`=?, `status_id`=?, `updated_time`=NOW(), `modified_by`=? WHERE tutorial_id=?";
 	$params=[$subject_id, $term_id, $department_id, $class_id, $week_id, $series_id, $topic, $urls, $seo_keywords, $seo_description, $summary, $thumbnail, $video, $duration, $material, $status_id, $login_staff_id, $tutorial_id];
-	$result = updateQuery($conn, $query, 'sssssisssssssssssssis', $params);
+	$result = updateQuery($conn, $query, 'ssssiisssssssssiss', $params);
 
 	$response = [
 		'response' => 200,

@@ -15,9 +15,11 @@ mysqli_select_db($conn,"leaderst_dev_db");
 mysqli_set_charset($conn, "utf8mb4");
 /////////////////////////////////////////////////////////////////
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-?>
-<?php require_once 'crud.php';?>
-<?php require_once 'errorHandlers.php';?>
-<?php require_once 'helper.php';?>
-<?php require_once 'functions.php';?>
-<?php require_once 'constants.php';?>
+
+
+
+require_once 'crud.php';
+require_once 'errorHandlers.php';
+require_once 'helper.php';
+require_once 'functions.php';
+require_once 'constants.php';
