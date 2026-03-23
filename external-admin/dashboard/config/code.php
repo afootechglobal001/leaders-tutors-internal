@@ -14,6 +14,7 @@ switch ($action){
 		require_once('student-content.php');
 		require_once('subscription-content.php');
 		require_once('tutorial-content.php');
+		require_once('cbt-content.php');
 	break;
 
 	case 'get_form':
@@ -25,6 +26,7 @@ switch ($action){
 		require_once('student-content.php');
 		require_once('subscription-content.php');
 		require_once('tutorial-content.php');
+		require_once('cbt-content.php');
 	break;
 }
 ?>

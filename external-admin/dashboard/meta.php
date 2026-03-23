@@ -26,3 +26,4 @@
 <script src="<?php echo $websiteUrl?>/dashboard/js/canvasjs.min.js" type="text/javascript"></script>
 
 <script src="<?php echo $websiteUrl?>/dashboard/js/useDashboard.js?v=<?php echo $codeVersion?>" type="text/javascript"></script>
+<script src="<?php echo $websiteUrl?>/dashboard/js/useTutorial.js?v=<?php echo $codeVersion?>" type="text/javascript"></script>

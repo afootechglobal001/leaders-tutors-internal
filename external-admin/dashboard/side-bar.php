@@ -18,7 +18,7 @@
                     <span>Exams</span>
                 </div>
 
-                <div class="nav-div" title="Tutorials" id="dashboard"
+                <div class="nav-div" title="Tutorials" id="tutorialPage"
                     onclick="_getForm({page: 'proceedTutorialForm', url: adminPortalLocalUrl});">
                     <i class="bi-play-circle"></i>
                     <span>Tutorials</span>

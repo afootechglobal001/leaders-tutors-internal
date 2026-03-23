@@ -83,12 +83,12 @@ function _chevronCollapse(divId) {
   var x = document.getElementById(divId + "num");
   var titleDiv = x.closest(".pages-toggle-title");
 
-  if (x.innerHTML === '&nbsp;<i class="bi-chevron-down"></i>&nbsp;') {
-    x.innerHTML = '&nbsp;<i class="bi-chevron-up"></i>&nbsp;';
+  if (x.innerHTML === '&nbsp;<i class="bi-plus"></i>&nbsp;') {
+    x.innerHTML = '&nbsp;<i class="bi-dash"></i>&nbsp;';
     $("#" + divId + "answer").addClass("active-li");
     $(titleDiv).addClass("active-toggle");
   } else {
-    x.innerHTML = '&nbsp;<i class="bi-chevron-down"></i>&nbsp;';
+    x.innerHTML = '&nbsp;<i class="bi-plus"></i>&nbsp;';
     $(titleDiv).removeClass("active-toggle");
   }
 
