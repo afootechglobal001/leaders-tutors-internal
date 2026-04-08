@@ -3709,6 +3709,12 @@ main {
 	font-size: 13px;
 }
 
+.pages-toggle-back-div .pages-toggle-div .pages-toggle-title .subject-title-div .bottom-back-div{
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+
 .pages-toggle-back-div .pages-toggle-div .pages-toggle-title .subject-title-div .bottom-text{
 	display: flex;
 	align-items: center;
@@ -4302,7 +4308,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin: 15px 0px;
 }
 
 .permission-form-back-div .title-div {

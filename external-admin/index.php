@@ -36,11 +36,11 @@
                     <img src="<?php echo $websiteUrl ?>/images/logo.png" alt="Logo">
                 </div>
 
-                <div class="form-div animated fadeIn" id="viewLogin">
+                <div class="form-div animated fadeIn">
                     <h1> Welcome <span>Back!</span></h1>
                     <p>Please enter your details to login to Leaders Tutor External Exam Admin portal</p>
 
-                    <div class="inner-form">
+                    <div class="inner-form" id="viewLogin">
                         <div class="text_field_container" id="userName_container">
                             <script>
                                 textField({
@@ -61,7 +61,7 @@
                         </div>
 
                         <div class="btn-div">
-                            <button class="btn" id="submitBtn" title="Log In" onclick="window.parent.location.href = adminDashboardUrl">Log In <i class="bi-arrow-right"></i></button>
+                            <button class="btn" id="submitBtn" title="Log In" onclick="_confirmLogin();">Log In <i class="bi-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>

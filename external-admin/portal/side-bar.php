@@ -18,6 +18,12 @@
                     <span>Exams</span>
                 </div>
 
+                <div class="nav-div" title="Year" id="yearPage"
+                    onclick="_getActivePage({page:'yearPage', divid:'yearPage'});">
+                    <i class="bi-calendar2-plus"></i>
+                    <span>Year</span>
+                </div>
+
                 <div class="nav-div" title="Tutorials" id="tutorialPage"
                     onclick="_getForm({page: 'proceedTutorialForm', url: adminPortalLocalUrl});">
                     <i class="bi-play-circle"></i>

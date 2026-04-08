@@ -13,7 +13,7 @@ function _getActiveLink(divid) {
 
 function _removeClass() {
   $(
-    "#dashboard, #topDashboard, #examPage, #studentPage, #subscriptionPage, #tutorialPage"
+    "#dashboard, #topDashboard, #examPage, #yearPage, #studentPage, #subscriptionPage, #tutorialPage"
   ).removeClass("active-li");
 }
 
@@ -95,9 +95,9 @@ function _chevronCollapse(divId) {
   $("#" + divId + "answer").slideToggle("slow");
 }
 
-function _logOut() {
-  sessionStorage.clear();
-  window.parent.location.href = adminPortalUrl;
+function _logOut(){
+	sessionStorage.clear();
+	window.parent.location.href = adminPortalUrl;
 }
 
 function _confirmLogOut() {
@@ -114,7 +114,7 @@ function _confirmLogOut() {
 }
 
 function _staffValidationCheck(code) {
-  if (code < 100) {
+  if (code === 401 || code === 403) {
     _logOut();
     return;
   }

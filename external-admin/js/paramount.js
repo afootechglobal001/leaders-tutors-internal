@@ -246,9 +246,6 @@ function _validateNumber(fieldId, number) {
 function getAuthHeaders(includeAuth = false) {
   return {
     apiKey: apiKey,
-    userOsBrowser: userOsBrowser,
-    userIpAddress: userIpAddress,
-    userDeviceId: userDeviceId,
     Authorization: includeAuth ? "Bearer " + (loginAccessKey ?? "") : undefined,
   };
 }
@@ -273,8 +270,13 @@ function _callRawEndPoints(payLoadProps) {
       success: function (data) {
         resolve(data); // ✅ resolve promise
       },
-      error: function (error) {
-        reject(error); // ✅ reject promise
+      error: function (jqXHR, errorThrown) {
+        // normalize the error object
+        const err = jqXHR.responseJSON || {
+          message: errorThrown || "Check your internet connection and try again.",
+          status: jqXHR.status,
+        };
+        reject(err);
       },
     });
   });
@@ -305,8 +307,13 @@ function _callFileEndPoints(payLoadProps) {
       success: function (data) {
         resolve(data);
       },
-      error: function (error) {
-        reject(error);
+      error: function (jqXHR, errorThrown) {
+        // normalize the error object
+        const err = jqXHR.responseJSON || {
+          message: errorThrown || "Check your internet connection and try again.",
+          status: jqXHR.status,
+        };
+        reject(err);
       },
     });
   });
@@ -326,20 +333,25 @@ function _callFetchEndPoints(payLoadProps) {
       success: function (data) {
         resolve(data);
       },
-      error: function (error) {
-        reject(error);
+      error: function (jqXHR, errorThrown) {
+        // normalize the error object
+        const err = jqXHR.responseJSON || {
+          message: errorThrown || "Check your internet connection and try again.",
+          status: jqXHR.status,
+        };
+        reject(err);
       },
     });
   });
 }
 
-function _callAjaxError(callback) {
+function _callAjaxError(callback, message) {
   _showCustomConfirm({
     callback: () => {
       callback();
     },
     title: "Connection Error!",
-    message: "Check your internet connection and try again.",
+    message: message==='error' ?  "Check your internet connection and try again." : message,
     alertType: "error",
     trueActionBtnText: "OK",
     closeOnOverlayClick: true,
@@ -364,7 +376,7 @@ function _btnDisable(btnId, btnText = "SUBMIT", action = true) {
     $("#" + btnId).html(
       '<img src="' +
         websiteUrl +
-        '/all-images/images/loading.gif" style="width:12px;" alt="Loading"/>'
+        '/images/loading.gif" style="width:12px;" alt="Loading"/>'
     );
     $("#" + btnId).prop("disabled", action);
   } else {
@@ -401,4 +413,38 @@ function _formatDate(dateString) {
   const options = { day: "2-digit", month: "short", year: "numeric" };
   // Example: 25 Jan 2025
   return dateObj.toLocaleDateString("en-GB", options).replace(" ", " ");
+}
+
+////// Show False Notofication /////
+function _showFalseNotification(props) {
+  const {
+    container = "",
+    message = "Something went wrong",
+    colspan = null,
+    button = "",
+    paginationContainer = ""
+  } = props;
+
+  let content = `
+    <div class="false-notification-div">
+      <p>${message}</p>
+      ${button ? `<div>${button}</div>` : ""}
+    </div>
+  `;
+
+  if (colspan) {
+    content = `
+      <tr>
+        <td colspan="${colspan}">
+          ${content}
+        </td>
+      </tr>
+    `;
+  }
+
+  $(container).html(content);
+
+  if (paginationContainer) {
+    $(paginationContainer).html("");
+  }
 }

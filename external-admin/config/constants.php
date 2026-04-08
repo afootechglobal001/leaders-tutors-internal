@@ -5,51 +5,21 @@
 
 	//$websiteUrl='https://getfoodstuffs.com'; /// For Live Server Url //
 	$websiteUrl='http://localhost/leaders-network/leaders-tutors-internal/external-admin';
-	//$websitePath = $_SERVER['DOCUMENT_ROOT'];
-	$websitePath = $_SERVER['DOCUMENT_ROOT'].'/weblist-studio/WebListStudio-GetFoodStuffs'; //dirname(__FILE__);
 	$codeVersion= date('Ymdhis');
 ?>
 
-
-<?php
-$userOsBrowser = $_SERVER['HTTP_USER_AGENT'];
-
-/////////////////////////////////////////////////////////////////////////////////
-function getUserIP() {
-    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-        return $_SERVER['HTTP_CLIENT_IP'];
-    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-        return $_SERVER['HTTP_X_FORWARDED_FOR'];
-    } else {
-        return $_SERVER['REMOTE_ADDR'];
-    }
-}
-$userIpAddress =getUserIP();
-
-/////////////////////////////////////////////////////////////////////////////////
-function getBrowserId() {
-    $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';  // Browser and OS info
-    $acceptLanguage = $_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '';  // Language
-    // Combine all data and create a hash
-    $browserId = hash('sha256', $userAgent . $acceptLanguage);
-    return $browserId;
-}
-$userDeviceId=getBrowserId();
-?>
-
-
 <script>
 	var websiteUrl = "<?php echo $websiteUrl;?>";
-	var apiKey='b58b8bf717120383cd5e13d247beb6b9'; /// For API Key //
-	var endPoint='https://getfoodstuffs.com.ng/api/dev'; /// Server End Point url
-	var userOsBrowser = "<?php echo $userOsBrowser;?>"; /// For User OS Browser //
-	var userIpAddress = "<?php echo $userIpAddress;?>"; /// For User IP Address //
-	var userDeviceId = "<?php echo $userDeviceId;?>"; /// For User Device Id //
-
+	var apiKey='2820239fbc6d13f580a389d8d3694483'; /// For API Key //
+	var endPoint='https://leaderstutors.com/api/external/dev'; /// Server End Point url
+	var documentdocumentStoragePath='https://leaderstutors.com/api/uploaded-files/dev'; /// For Document Storage Path //
+	
 	/// Admin Middleware Urls ///
 	var adminLocalUrl=websiteUrl+'/config/admin/code'; /// For Admin Login Local Url //
-	var adminPortalLocalUrl=websiteUrl+'/dashboard/config/code'; /// For Admin Portal Local Url //
+	var adminPortalLocalUrl=websiteUrl+'/portal/config/code'; /// For Admin Portal Local Url //
 	var adminPortalUrl=websiteUrl+'/'; /// For Portal Url //
 	var adminUrl=websiteUrl+'/admin'; /// For Admin Url //
-	var adminDashboardUrl=websiteUrl+'/dashboard'; /// For Admin Portal Local Url //
+	var adminDashboardUrl=websiteUrl+'/portal'; /// For Admin Portal Local Url //
+
+	var staffPixPath=documentdocumentStoragePath+'/staff-pix/'; /// For Staff Profile Pix Path //
 </script>

@@ -16,5 +16,14 @@
 <script src="<?php echo $websiteUrl?>/js/textfield-selectfield.js?v=<?php echo $codeVersion?>"></script>
 <script src="<?php echo $websiteUrl?>/js/aos.js"></script>
 
-<script src="<?php echo $websiteUrl?>/admin/js/scripts.js?v=<?php echo $codeVersion?>"></script>
-<script src="<?php echo $websiteUrl?>/admin/js/paramount.js?v=<?php echo $codeVersion?>"></script>
+<script src="<?php echo $websiteUrl?>/js/useAdmin.js?v=<?php echo $codeVersion?>"></script>
+
+<script>
+    let staffLoginData = JSON.parse(sessionStorage.getItem("staffLoginData"));
+
+    if (staffLoginData){
+        window.parent.location.href = adminDashboardUrl;
+    } else {
+        sessionStorage.setItem("staffLoginData", JSON.stringify(''));
+    }
+</script>

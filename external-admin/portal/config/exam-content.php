@@ -95,12 +95,12 @@
                 <p>You are about to create a new exam. Please complete the form below with accurate details to successfully create new exam.</p>
             </div>
 
-            <div class="main-content-div">
+            <div class="main-content-div form-main-content-div">
                 <div class="tables-content-div form-main-content">
                     <div class="content-title">
                         <div class="title">
                             <i class="bi bi-journal"></i>
-                            <p>Exam</p>
+                            <p>Exam Abbreviation</p>
                         </div>
                     </div>
 
@@ -122,68 +122,46 @@
                                 });
                             </script>
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="text_field_container" id="departmentId_container">
-                            <script>
-                                selectField({
-                                    id: 'departmentId',
-                                    title: 'Select Department'
-                                });
-                            </script>
-                        </div>
-
-                        <div class="permission-form-back-div">
-                            <div class="title-div">
-                                <h4>Subjects</h4>
-                                <p>Use the toggles below to assign registered subjects to their respective exams. Switching to "Yes" activates the subject for exam use.</p>
+            <div class="main-content-div form-main-content-div">
+                <div class="tables-content-div form-main-content">
+                    <div class="content-title">
+                        <label for="examLogo" style="cursor:pointer;" title="Click To Upload Exam Logo">
+                            <div class="title">
+                                <i class="bi-upload"></i>
+                                <p>Click To Upload Exam Logo</p>
                             </div>
+                        </label>
+                    </div>
 
-                            <div class="permission-toggle-div">
-                                <div class="toggle-title">Registered Subjects</div>
-                                <div class="fetch-toggle" id="dashboard">
-                                    <div class="each-toggle-div">
-                                        <span>Mathematics</span>
-                                        <label for="role_1" class="switch">
-                                            <input type="checkbox" class="child" id="role_1" name="rolePermissionId[]" data-value="1">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
-
-                                    <div class="each-toggle-div">
-                                        <span>English</span>
-                                        <label for="role_2" class="switch">
-                                            <input type="checkbox" class="child" id="role_2" name="rolePermissionId[]" data-value="2">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
-
-                                    <div class="each-toggle-div">
-                                        <span>Chemistry</span>
-                                        <label for="role_3" class="switch">
-                                            <input type="checkbox" class="child" id="role_3" name="rolePermissionId[]" data-value="3">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
-
-                                    <div class="each-toggle-div">
-                                        <span>Physics</span>
-                                        <label for="role_4" class="switch">
-                                            <input type="checkbox" class="child" id="role_4" name="rolePermissionId[]" data-value="4">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
+                    <div class="form-container">
+                        <div class="pdf-back-div">
+                            <label for="examLogo">
+                                <div class="div-in" id="video_upload_area">
+                                    <div class="pix-div" title="Click To Upload Exam Logo">
+                                        <img id="examLogoPreview" src="<?php echo $websiteUrl ?>/images/defaults.png" alt="Default Image">
+                                        <input type="file" id="examLogo" style="display:none" accept=".jpg, .jpeg, .png, .gif, .bmp, .tiff, .webp, .svg, .avif" onchange="examLogoPixPreview.UpdatePreview(this);" />
                                     </div>
                                 </div>
-                            </div>
-
-                            <script>
-                               _toggleCheck();
-                            </script>
+                            </label>
                         </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="main-content-div form-main-content-div">
+                <div class="tables-content-div form-main-content">
+                    <div class="content-title">
+                        <div class="title">
+                            <i class="bi bi-journal"></i>
+                            <p>Exam Status</p>
+                        </div>
+                    </div>
+
+                    <div class="form-container">
                         <div class="text_field_container" id="statusId_container">
                             <script>
                                 selectField({

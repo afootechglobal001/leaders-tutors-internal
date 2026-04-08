@@ -23,12 +23,18 @@
                 <div class="right-icon-div no-border" title="Click To View Profile" onclick="_toggleProfileDiv()">
                     <div class="profile-div">
                         <div class="info-div">
-                            <div class="name"><strong id="loginHeaderName">Paul Emmanuel</strong></div>
-                            <div class="role" id="loginRoleName">Super Admin</div>
+                            <div class="name"><strong id="loginHeaderName"><script>
+                                        $("#loginHeaderName").html(capitalizeFirstLetterOfEachWord(staffLoginData.fullname));
+                                    </script></strong></div>
+                            <div class="role" id="loginRoleName"><script>
+                                    $("#loginRoleName").html(staffLoginData.role_name);
+                                </script></div>
                         </div>
 
                         <div class="img-div" id="profilePix">
-                            <img id="" src="<?php echo $websiteUrl; ?>/images/avatar.jpg" alt="Profile Image">
+                            <script>
+                                $("#profilePix").html('<img src="' + staffPixPath + staffLoginData.profile_pix + '" alt="Profile Image">');
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -38,18 +44,24 @@
                         <div class="toggle-title">
                             <div class="dp" id="loginProfileName">
                                 <script>
-                                    $("#loginProfileName").html(getFirstLettersOfEachWord('PE'));
+                                    $("#loginProfileName").html(getFirstLettersOfEachWord(staffLoginData.fullname));
                                 </script>
                             </div>
                             <div class="text">
                                 <h2 id="loginUserFullname">
-                                    Paul Emmanuel
+                                    <script>
+                                        $("#loginUserFullname").html(staffLoginData.fullname);
+                                    </script>
                                 </h2>
                                 <p id="loginUserEmail">
-                                    seunemmanuel107@gmail.com
+                                    <script>
+                                        $("#loginUserEmail").html(staffLoginData.email);
+                                    </script>
                                 </p>
                                 <p id="loginUserPhone">
-                                    07050903886
+                                    <script>
+                                        $("#loginUserPhone").html(staffLoginData.mobile);
+                                    </script>
                                 </p>
                             </div>
                         </div>

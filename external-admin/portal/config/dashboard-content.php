@@ -6,7 +6,9 @@
             </div>
             <div class="text-div">
                 <h2>Welcome Back, <span id="DashFullname">
-                        Mr Paul
+                        <script>
+                            $("#DashFullname").html(capitalizeFirstLetterOfEachWord(staffLoginData.fullname));
+                        </script>
                     </span>!</h2>
                 <p>Welcome to your dashboard, where you can oversee all your activities, tasks, progress, and updates—helping you stay organized and on track</p>
             </div>
@@ -17,7 +19,9 @@
                 <p><span><i class="bi-clock"></i> Last Login Date </span></p>
             </div>
             <div><strong id="lastLoginTime">
-                    2026-03-09 12:37:21
+                    <script>
+                        $("#lastLoginTime").html(staffLoginData.last_login_time);
+                    </script>
                 </strong></div>
         </div>
     </div>
@@ -25,7 +29,7 @@
     <div class="main-content-div" data-aos="fade-in" data-aos-duration="1500">
         <div class="dashboard-wrapper">
             <div class="statistics-back-div">
-                <div class="statistics-div" id="branch" title="Branches" onclick="_getActivePage({page:'viewBranch', divid:'branch'});">
+                <div class="statistics-div" id="branch" title="Branches" onclick="_getActivePage({page:'examPage', divid:'examPage'});">
                     <div class="statistics-inner-div">
                         <div class="statistics-text">
                             <p>Exams</p>
@@ -36,7 +40,7 @@
                     </div>
                 </div>
 
-                <div class="statistics-div" onclick="_getActivePage({page:'viewStaff', divid:'staff'});" id="staff" title="Administrators">
+                <div class="statistics-div" onclick="" id="staff" title="Administrators">
                     <div class="statistics-inner-div">
                         <div class="statistics-text">
                             <p>Tutorials</p>
@@ -58,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="statistics-div" onclick="_getActivePage({page:'galleryCategory', divid:'publish'});" id="gallery" title="Gallery">
+                <div class="statistics-div" onclick="" id="gallery" title="Gallery">
                     <div class="statistics-inner-div">
                         <div class="statistics-text">
                             <p>Subscriptions</p>

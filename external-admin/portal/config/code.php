@@ -1,5 +1,5 @@
 <?php include '../../config/constants.php';?>
-<script src="<?php echo $websiteUrl?>/admin/dashboard/js/session_validation.js"></script>
+<script src="<?php echo $websiteUrl?>/portal/js/session_validation.js"></script>
 
 <?php
 $action=$_POST['action'];
@@ -11,6 +11,7 @@ switch ($action){
 		$ids=$_POST['ids'];
 		require_once('dashboard-content.php');
 		require_once('exam-content.php');
+		require_once('years-content.php');
 		require_once('student-content.php');
 		require_once('subscription-content.php');
 		require_once('tutorial-content.php');
@@ -23,6 +24,7 @@ switch ($action){
 		$modalLayer=$_POST['modalLayer'];
 		require_once('dashboard-content.php');
 		require_once('exam-content.php');
+		require_once('years-content.php');
 		require_once('student-content.php');
 		require_once('subscription-content.php');
 		require_once('tutorial-content.php');
