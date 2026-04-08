@@ -160,3 +160,40 @@ function thousandSeparator(val) {
   //   return formatter.format(val);
   return isNaN(parseFloat(formatter.format(val))) ? "-" : formatter.format(val);
 }
+
+///// Admin SelectFields ///////////
+function _getSelectStatusId(fieldId, statusIds){
+	try {
+		$.ajax({
+			type: "GET",
+			url: endPoint+"/preset-data/fetch-status?statusId="+statusIds,
+			dataType: "json",
+			cache: false,
+			headers: {
+				'apiKey': apiKey,
+				'Authorization': 'Bearer ' + loginAccessKey
+			},
+			success: function(info) {
+				const data = info.data;
+				const success = info.success;
+
+				if (success === true) {
+					for (let i = 0; i < data.length; i++) {
+						const id = data[i].statusId;
+						const value = data[i].statusName;
+						$('#searchList_'+ fieldId).append('<li onclick="_clickOption(\'searchList_' + fieldId + '\', \'' + id + '\', \'' + value + '\');">'+ value +'</li>');
+					}	
+				} else {
+					_actionAlert(info.message, false);
+					const response = info.response;
+					if (response < 100) {
+						_logOut();
+					}
+				}
+			}
+		});
+	} catch (error) {
+		console.error("Error: ", error);
+		_actionAlert('An unexpected error occurred. Please try again.', false);
+	}
+}

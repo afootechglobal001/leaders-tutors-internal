@@ -30,5 +30,29 @@ switch ($action){
 		require_once('tutorial-content.php');
 		require_once('cbt-content.php');
 	break;
+
+	case 'uploadExamLogo':
+		$oldExamLogo = $_POST['oldExamLogo'] ?? '';
+		$newExamLogo = $_POST['newExamLogo'] ?? '';
+		$examLogo = $_POST['examLogo'] ?? '';
+	
+		///// Validate Exam Logo /////
+		if (!empty($examLogo)) {
+    		$examLogo = preg_replace('#^data:image/\w+;base64,#i', '', $examLogo);
+			$examLogo = str_replace(' ', '+', $examLogo);
+			$examLogo = base64_decode($examLogo);
+		}
+		
+		//// Upload Exam Logo ////
+		$uploadExamLogoDir = "../../uploaded_files/examLogo/";
+
+		//// Create Directory If Not Exists ////
+		if(!empty($newExamLogo)){
+			if($newExamLogo!=$oldExamLogo){
+				unlink($uploadExamLogoDir . $oldExamLogo);
+				file_put_contents($uploadExamLogoDir . $newExamLogo, $examLogo);
+			}
+		}
+    break;
 }
 ?>
