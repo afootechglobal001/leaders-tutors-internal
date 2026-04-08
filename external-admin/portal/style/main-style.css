@@ -1054,6 +1054,15 @@ main {
 	cursor: pointer;
 }
 
+.slide-form-div .container-back-div .issue-text{
+	color: #f00;
+	font-family: body-font;
+	font-size: 10px;
+	font-style: italic;
+    display: none;
+}
+
+
 .slide-form-div .container-back-div .form-title{
 	font-size:12px;
 	font-family: body-font;
@@ -3368,198 +3377,6 @@ main {
 }
 
 
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-.exams-back-div {
-	display: flex;
-	justify-content: start;
-	gap: 40px 20px;
-	padding: 20px;
-	flex-wrap: wrap;
-}
-
-.exams-back-div .exam-div {
-	background: linear-gradient(-180deg, #fff, #fffdf5, #fff);
-	border-radius: 10px;
-	padding: 20px;
-	padding-top: 0px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	margin: 20px 0px;
-	margin-bottom: 0px;
-  	min-width: 345px;
-  	max-width: 100%;
-}
-
-.exams-back-div .country-exam-div {
-  	min-width: 290px;
-}
-
-.exams-back-div .exam-div:hover {
-	border: 1px solid var(--primary-color);
-	background: linear-gradient(-180deg, #fffdf5, #fff);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-	transform: scale(1.02);
-	transition: 0.2s ease-in;
-}
-
-.exams-back-div .exam-div .exam-image {
-	width: 70px;
-	height: 70px;
-	border-radius: 10px;
-	overflow: hidden;
-	margin-top: -35px;
-	border: rgba(0, 0, 0, 0.2) 1px solid;
-	margin-bottom: -30px;
-}
-
-.exams-back-div .exam-div .exam-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.exams-back-div .exam-div .top-div {
-	display: flex;
-	align-self: flex-end;
-	align-items: center;
-	gap: 15px;
-}
-
-.exams-back-div .exam-div .top-div .btn-div{
-	padding:8px 5px;
-	background:#f8f8f8;
-	display: flex;
-	gap: 4px;
-	border-radius:8px 8px 0px 0px;
-}
-
-.exams-back-div .exam-div .top-div .btn-div .btn{
-	height:25px;
-	padding:0px 12px;
-	background: linear-gradient(90deg, #faf5e5, #fff);
-	color: var(--body-color);
-	border: 1px solid rgba(0, 0, 0, 0.089);
-	color:var(--sub-body-color);
-	font-size:10px;
-	border-radius: 4px;
-	cursor:pointer;
-    font-family: sub-title-font;
-	transition:all 0.2s ease-in 0.2s;
-}
-
-.exams-back-div .exam-div .top-div .btn-div .btn:hover{
-	background-size: 200% 100%;
-	background-position: right;
-	transform: scale(1.02);
-}
-
-.exams-back-div .exam-div .top-div .btn-div .active-btn{
-	color: var(--white-color);
-	background: linear-gradient(
-		90deg,
-		var(--primary-color),
-		var(--secondary-color)
-	);
-	background-size: 100%;
-	background-position: left;
-	transition: background-position 0.4s ease-in-out, transform 0.2s ease-in-out;
-	border: none;
-}
-
-
-.exams-back-div .exam-div .exam-status,
-.exams-back-div .exam-div .draft {
-	font-size: 10px;
-	padding: 3px 10px;
-	border-radius: 15px;
-	color: var(--text-color);
-	border: 1px solid var(--text-color);
-	background: rgba(124, 124, 124, 0.1);
-    width: fit-content;
-}
-
-.exams-back-div .exam-div .SUSPENDED,
-.exams-back-div .exam-div .inprogress {
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  background: rgba(247, 160, 37, 0.1);
-}
-
-.exams-back-div .exam-div .ACTIVE {
-  color: var(--active-color);
-  border: 1px solid var(--active-color);
-  background: rgba(0, 153, 0, 0.1);
-}
-
-.exams-back-div .exam-div .exam-info {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 10px;
-}
-
-.exams-back-div .exam-div .exam-info .exam-time {
-  display: flex;
-  gap: 10px;
-  font-size: 12px;
-}
-
-.exams-back-div .exam-div .exam-info .exam-time p strong{
-	font-size: 12px;
-}
-
-.exams-back-div .exam-div .exam-info .exam-time p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-.exams-back-div .exam-div .exam-info .exam-time p i {
-  color: var(--primary-color);
-}
-
-.exams-back-div .exam-div .btn {
-  border: none;
-  height: 40px;
-  font-size: 13px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-  border-radius: 20px;
-  font-family: sub-title-font;
-  align-self: self-start;
-  padding: 0px 20px;
-  color: var(--white-color);
-  background: linear-gradient(
-    90deg,
-    var(--primary-color),
-    var(--secondary-color)
-  );
-  background-size: 100%;
-  background-position: left;
-  transition: background-position 0.4s ease-in-out, transform 0.2s ease-in-out;
-  white-space: nowrap;
-}
-
-.exams-back-div .exam-div .btn:hover {
-  background-size: 200% 100%;
-  background-position: right;
-  transform: scale(1.05); /* subtle hover grow */
-}
-
-.exams-back-div .exam-div .btn span {
-	font-size: 13px;
-	font-family: sub-title-font;
-	color: var(--white-color);
-	padding: 3px;
-}
-
 .page-summ-exam-div {
   gap: 0px;
   padding: 0px;
@@ -4210,8 +4027,7 @@ main {
   height: 100%;
   object-fit: cover;
 }
-.exams-back-div .exam-div .exam-status,
-.exams-back-div .exam-div .DRAFT {
+.exams-back-div .exam-div .exam-status {
   font-size: 10px;
   padding: 3px 10px;
   align-self: self-end;
@@ -4221,22 +4037,16 @@ main {
   background: rgba(124, 124, 124, 0.1);
 }
 
-.exams-back-div .exam-div .PENDING,
-.exams-back-div .exam-div .INPROGRESS {
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  background: rgba(247, 160, 37, 0.1);
-}
-.exams-back-div .exam-div .UPCOMING {
-  color: var(--link-color);
-  border: 1px solid var(--link-color);
-  background: rgba(50, 138, 179, 0.1);
-}
-.exams-back-div .exam-div .DONE,
 .exams-back-div .exam-div .ACTIVE {
   color: var(--active-color);
   border: 1px solid var(--active-color);
   background: rgba(0, 153, 0, 0.1);
+}
+
+.exams-back-div .exam-div .SUSPENDED {
+  	background:rgb(252, 164, 57,.1);
+	color:rgba(218, 90, 31, 0.87);
+	border: 1px solid rgba(218, 90, 31, 0.87);
 }
 
 .exams-back-div .exam-div .exam-info {
@@ -4260,11 +4070,6 @@ main {
 }
 .exams-back-div .exam-div .exam-info .exam-time p i {
   color: var(--primary-color);
-}
-.exams-back-div .exam-div .price {
-  color: var(--body-color);
-  font-family: title-font;
-  font-size: 20px;
 }
 
 .exams-back-div .exam-div .btn {

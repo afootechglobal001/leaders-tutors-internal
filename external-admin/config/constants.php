@@ -22,4 +22,5 @@
 	var adminDashboardUrl=websiteUrl+'/portal'; /// For Admin Portal Local Url //
 
 	var staffPixPath=documentdocumentStoragePath+'/staff-pix/'; /// For Staff Profile Pix Path //
+	var examLogoPath=websiteUrl+'/uploaded_files/examLogo/'; /// For Exam Logo Path //
 </script>
