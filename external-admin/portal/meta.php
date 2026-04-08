@@ -26,7 +26,7 @@
 <script src="<?php echo $websiteUrl?>/js/paramount.js?v=<?php echo $codeVersion?>"></script>
 <script src="<?php echo $websiteUrl?>/js/textfield-selectfield.js?v=<?php echo $codeVersion?>"></script>
 <script src="<?php echo $websiteUrl?>/js/aos.js"></script>
-<script src="<?php echo $websiteUrl?>/js/tablePagenator.js?v=<?php echo $codeVersion?>"></script>
+<script src="<?php echo $websiteUrl?>/js/tablePaginator.js?v=<?php echo $codeVersion?>"></script>
 
 <script src="<?php echo $websiteUrl?>/portal/js/jquery.datetimepicker.js"></script>
 <script src="<?php echo $websiteUrl?>/portal/js/chart.min.js"></script>
