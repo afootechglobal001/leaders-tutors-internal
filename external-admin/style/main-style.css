@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* Developed by Mike Candy @ 03-07-2025 */
+
+/* General reset */
+.login-div{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* LEFT SIDE */
+.login-image-div{
+  flex:1;
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  width: 33%;
+  background: url(../images/portal-login-bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.login-image-div .logo-div{
+  width:150px;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.login-image-div .logo-div img{
+  width:100%;
+}
+
+.login-image-div .bottom-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #ffffff;
+    padding: 200px 40px 80px 40px;
+    background: linear-gradient(to top, #000000, transparent);
+    z-index: -5;
+}
+
+.login-image-div .bottom-container h1{
+    font-size: 24px;
+    font-family: sub-title-font;
+    color: var(--text-white);
+}
+
+.login-image-div .bottom-container span{
+    color: var(--secondary-color);
+}
+
+.login-image-div .bottom-container p{
+    color: var(--text-white);
+    font-size: 16px;
+}
+
+/* RIGHT SIDE */
+.login-card-div{
+  position: absolute;
+  width: 67%;
+  height: 100%;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--white-color);
+  overflow: auto;
+}
+
+/* FORM SECTION */
+.login-card-div .form-section{
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-card-div .form-section .logo-div{
+  width:150px;
+  overflow: hidden;
+}
+
+.login-card-div .form-section .logo-div img{
+  width:100%;
+}
+
+.login-card-div .form-section .form-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-card-div .form-section .form-div h1{
+  font-size:25px;
+  font-family:sub-title-font;
+  color:var(--sub-body-color);
+}
+
+.login-card-div .form-section .form-div h1 span{
+  color:var(--secondary-color);
+}
+
+.login-card-div .form-section .form-div p{
+  font-size:14px;
+  color:var(--text-color);
+}
+
+.login-card-div .form-section .form-div .inner-form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-card-div .form-section .form-div .inner-form .btn-div .btn {
+  border: none;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: body-font;
+  align-self: self-start;
+  padding: 0px 25px;
+  color: var(--text-white);
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background-size: 100%;
+  background-position: left;
+  transition: background-position 0.4s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.login-card-div .form-section .form-div .inner-form .btn-div .btn:hover {
+  background-size: 200% 100%;
+  background-position: right;
+  transform: scale(1.01); /* subtle hover grow */
+}
+
+.login-card-div .form-section .form-div .inner-form .btn-div a {
+  color: var(--link-color);
+}

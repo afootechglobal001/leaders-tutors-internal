@@ -2888,149 +2888,160 @@ function _get_fetch_subject_form(subject_id) {
 
 
 function _add_tutorial_video(department_id, class_id, subject_id) {
-  tinyMCE.triggerSave();
-  var term_id = $('#term_id').val();
-  var week_id = $('#week_id').val();
-  var series_id = 1;
-  var topic = $('#topic').val();
-  var urls = $('#urls').val();
-  var seo_keywords = $('#seo_keywords').val();
-  var seo_description = $('#seo_description').val();
-  var summary = $('#summary').val();
-  var video_pix_file = $('#thumbnail').prop('files')[0];
-  var new_video = $('#video').prop('files')[0];
-  var duration = $('#duration').val();
-  var new_material = $('#material').prop('files')[0];
-  var status_id = $('#reg_status_id').val();
+  try {
+    tinyMCE.triggerSave();
+    var term_id = $('#term_id').val();
+    var week_id = $('#week_id').val();
+    var series_id = 1;
+    var topic = $('#topic').val();
+    var urls = $('#urls').val();
+    var seo_keywords = $('#seo_keywords').val();
+    var seo_description = $('#seo_description').val();
+    var summary = $('#summary').val();
+    var video_pix_file = $('#thumbnail').prop('files')[0];
+    var new_video = $('#video').prop('files')[0];
+    var duration = $('#duration').val();
+    var new_material = $('#material').prop('files')[0];
+    var status_id = $('#reg_status_id').val();
 
-  $('#term_id, #week_id, #topic, #urls, #seo_keywords, #seo_description, #summary, #thumbnail, #video, #duration, #material, #status_id').removeClass('complain');
-
-  if (term_id == '') {
-      $('#term_id').addClass('complain');
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TERM ERROR!<br /><span>Check Term And Try Again</span>').fadeIn(500).delay(3000).fadeOut(100);
-
-    } else if (week_id == '') {
-      $('#week_id').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> WEEK ERROR!<br /><span>Check Week And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (topic == '') {
-      $('#topic').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TOPIC ERROR!<br /><span>Check Topic And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (urls == '') {
-      $('#urls').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> URL ERROR!<br /><span>Check Url And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (seo_keywords == '') {
-      $('#seo_keywords').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO KEYWORDS ERROR!<br /><span>Check Seo Keywords And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (seo_description == '') {
-      $('#seo_description').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO DESCRIPTION ERROR!<br /><span>Check Description And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (summary == '') {
-      $('#summary').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SUMMARY ERROR!<br /><span>Check Summary And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (video_pix_file == '') {
-      $('#thumbnail').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO IMAGE ERROR!<br /><span>Check Video Image And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (new_video == '') {
-      $('#video').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO ERROR!<br /><span>Check Video And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (duration == '') {
-      $('#duration').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> DURATION ERROR!<br /><span>Check Duration And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (new_material == '') {
-      $('#material').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> MATERIAL ERROR!<br /><span>Check Material And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (status_id == '') {
-      $('#reg_status_id').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> STATUS ERROR!<br /><span>Check Status And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else {
     $('#term_id, #week_id, #topic, #urls, #seo_keywords, #seo_description, #summary, #thumbnail, #video, #duration, #material, #status_id').removeClass('complain');
 
+    if (term_id == '') {
+        $('#term_id').addClass('complain');
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TERM ERROR!<br /><span>Check Term And Try Again</span>').fadeIn(500).delay(3000).fadeOut(100);
+
+      } else if (week_id == '') {
+        $('#week_id').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> WEEK ERROR!<br /><span>Check Week And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (topic == '') {
+        $('#topic').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TOPIC ERROR!<br /><span>Check Topic And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (urls == '') {
+        $('#urls').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> URL ERROR!<br /><span>Check Url And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (seo_keywords == '') {
+        $('#seo_keywords').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO KEYWORDS ERROR!<br /><span>Check Seo Keywords And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (seo_description == '') {
+        $('#seo_description').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO DESCRIPTION ERROR!<br /><span>Check Description And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (summary == '') {
+        $('#summary').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SUMMARY ERROR!<br /><span>Check Summary And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (video_pix_file == '') {
+        $('#thumbnail').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO IMAGE ERROR!<br /><span>Check Video Image And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (new_video == '') {
+        $('#video').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO ERROR!<br /><span>Check Video And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (duration == '') {
+        $('#duration').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> DURATION ERROR!<br /><span>Check Duration And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (new_material == '') {
+        $('#material').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> MATERIAL ERROR!<br /><span>Check Material And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (status_id == '') {
+        $('#reg_status_id').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> STATUS ERROR!<br /><span>Check Status And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else {
+      $('#term_id, #week_id, #topic, #urls, #seo_keywords, #seo_description, #summary, #thumbnail, #video, #duration, #material, #status_id').removeClass('complain');
+
       if (confirm("Confirm!!\n\n Are you sure to PERFORM THIS ACTION?")) {
-          $("#submit_btn").hide();
-          $("#progress-alert").fadeIn(3000);
+        $("#submit_btn").hide();
+        $("#progress-alert").fadeIn(3000);
 
-          var form_data = new FormData();
-          form_data.append("department_id", department_id);
-          form_data.append("class_id", class_id);
-          form_data.append("subject_id", subject_id);
-          form_data.append("term_id", term_id);
-          form_data.append("week_id", week_id);
-          form_data.append("series_id", series_id);
-          form_data.append("topic", topic);
-          form_data.append("urls", urls);
-          form_data.append("seo_keywords", seo_keywords);
-          form_data.append("seo_description", seo_description);
-          form_data.append("summary", summary);
-          form_data.append("thumbnail", video_pix_file);
-          form_data.append("video", new_video);
-          form_data.append("duration", duration);
-          form_data.append("material", new_material);
-          form_data.append("status_id", status_id);
+        var form_data = new FormData();
+        form_data.append("department_id", department_id);
+        form_data.append("class_id", class_id);
+        form_data.append("subject_id", subject_id);
+        form_data.append("term_id", term_id);
+        form_data.append("week_id", week_id);
+        form_data.append("series_id", series_id);
+        form_data.append("topic", topic);
+        form_data.append("urls", urls);
+        form_data.append("seo_keywords", seo_keywords);
+        form_data.append("seo_description", seo_description);
+        form_data.append("summary", summary);
+        form_data.append("thumbnail", video_pix_file);
+        form_data.append("video", new_video);
+        form_data.append("duration", duration);
+        form_data.append("material", new_material);
+        form_data.append("status_id", status_id);
 
-          $.ajax({
-            //////////// loading progress bar............
-            xhr: function() {
-                  var xhr = new window.XMLHttpRequest();
-                  xhr.upload.addEventListener("progress", function(evt) {
-                      if (evt.lengthComputable) {
-                          var percentComplete = ((evt.loaded / evt.total) * 100).toFixed();
-                          $(".ajax-progress").width(percentComplete + '%');
-                          $(".ajax-progress").html(percentComplete+'%');
-                      }
-                  }, false);
-                  return xhr;
-                },
-             ////////////////////////////////////////////////
-              type: "POST",
-              url: endPoint + '/admin/tutorials/add-tutorial',
-              data: form_data,
-              dataType: "json",
-              contentType: false,
-              cache: false,
-              headers: {
-                  'apiKey': apiKey,
-                  'Authorization': 'Bearer ' + login_access_key
+        $.ajax({
+          //////////// loading progress bar............
+          xhr: function() {
+                var xhr = new window.XMLHttpRequest();
+                xhr.upload.addEventListener("progress", function(evt) {
+                    if (evt.lengthComputable) {
+                        var percentComplete = ((evt.loaded / evt.total) * 100).toFixed();
+                        $(".ajax-progress").width(percentComplete + '%');
+                        $(".ajax-progress").html(percentComplete+'%');
+                    }
+                }, false);
+                return xhr;
               },
-              processData: false,
-              success: function(info) {
-                  var success = info.success;
-                  var message = info.message;
+          ////////////////////////////////////////////////
+            type: "POST",
+            url: endPoint + '/admin/tutorials/add-tutorial',
+            data: form_data,
+            dataType: "json",
+            contentType: false,
+            cache: false,
+            headers: {
+              'apiKey': apiKey,
+              'Authorization': 'Bearer ' + login_access_key
+            },
+            processData: false,
+            success: function(info) {
+              var message = info.message;
+              var tutorial_id = info.tutorial_id;
+              var urls = info.urls;
+              var department_urls = info.department_urls;
+              var class_urls = info.class_urls;
+              var subject_urls = info.subject_urls;
+              var thumbnail = info.thumbnail;
 
-                  if (success == true) {
-                      var tutorial_id = info.tutorial_id;
-                      var urls = info.urls;
-                      var department_urls = info.department_urls;
-                      var class_urls = info.class_urls;
-                      var subject_urls = info.subject_urls;
-                      var thumbnail = info.thumbnail;
-
-                      _create_tutorial_folder(department_id, class_id, tutorial_id, urls, department_urls, class_urls, subject_urls, thumbnail, message);
-                  } else {
-                      $("#warning-div").html('<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message + "").fadeIn(500).delay(5000).fadeOut(100);
-                      $("#submit_btn").fadeIn(3000);
-                      $("#progress-alert").hide();
-                  }
-              },
-              error: function (error) {
-                console.log(error);
-                $("#warning-div").html('<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again later').fadeIn(500).delay(5000).fadeOut(100);
-                $("#submit_btn").fadeIn(3000);
-                $("#progress-alert").hide();
-              }
+              _create_tutorial_folder(department_id, class_id, tutorial_id, urls, department_urls, class_urls, subject_urls, thumbnail, message);
+          },
+          }).catch((error) => {
+            var message = error.responseJSON
+              ? error.responseJSON.message
+              : "An error occurred. Check your internet connection and try again.";
+            $("#warning-div")
+              .html(
+                '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
+              )
+              .fadeIn(500)
+              .delay(5000)
+              .fadeOut(100);
+              $("#submit_btn").fadeIn(3000);
+              $("#progress-alert").hide();
           });
       }
-  }
+    }
+    } catch (error) {
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+      $("#submit_btn").fadeIn(3000);
+      $("#progress-alert").hide();
+    }
 }
 
 
@@ -3317,132 +3328,130 @@ function _get_tutorial_pdf(documentStoragePath_material, material) {
 
 
 function _update_tutorial_video(department_id,class_id,tutorial_id) {
-  tinyMCE.triggerSave();
-  var subject_id = $('#subject_id').val();
-  var term_id = $('#term_id').val();
-  var week_id = $('#week_id').val();
-  var series_id = 1;
-  var topic = $('#topic').val();
-  var urls = $('#urls').val();
-  var seo_keywords = $('#seo_keywords').val();
-  var seo_description = $('#seo_description').val();
-  var summary = $('#summary').val();
-  var video_pix_file = $('#thumbnail').prop('files')[0];
-  var new_video = $('#video').prop('files')[0];
-  var duration = $('#duration').val();
-  var new_material = $('#material').prop('files')[0];
-  var status_id = $('#updt_status_id').val();
+  try {
+    tinyMCE.triggerSave();
+    var subject_id = $('#subject_id').val();
+    var term_id = $('#term_id').val();
+    var week_id = $('#week_id').val();
+    var series_id = 1;
+    var topic = $('#topic').val();
+    var urls = $('#urls').val();
+    var seo_keywords = $('#seo_keywords').val();
+    var seo_description = $('#seo_description').val();
+    var summary = $('#summary').val();
+    var video_pix_file = $('#thumbnail').prop('files')[0];
+    var new_video = $('#video').prop('files')[0];
+    var duration = $('#duration').val();
+    var new_material = $('#material').prop('files')[0];
+    var status_id = $('#updt_status_id').val();
 
-  $('#term_id, #week_id, #topic, #urls, #seo_keywords, #seo_description, #summary, #thumbnail, #video, #duration, #material, #updt_status_id').removeClass('complain');
-
-  if (subject_id == '') {
-    $('#subject_id').addClass('complain');
-    $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SUBJECT ERROR!<br /><span>Check Subject And Try Again</span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  }else if (term_id == '') {
-      $('#term_id').addClass('complain');
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TERM ERROR!<br /><span>Check Term And Try Again</span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (week_id == '') {
-      $('#week_id').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> WEEK ERROR!<br /><span>Check Week And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (topic == '') {
-      $('#topic').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TOPIC ERROR!<br /><span>Check Topic And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (urls == '') {
-      $('#urls').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> URL ERROR!<br /><span>Check Url And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (seo_keywords == '') {
-      $('#seo_keywords').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO KEYWORDS ERROR!<br /><span>Check Seo Keywords And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (seo_description == '') {
-      $('#seo_description').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO DESCRIPTION ERROR!<br /><span>Check Description And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (summary == '') {
-      $('#summary').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SUMMARY ERROR!<br /><span>Check Summary And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (video_pix_file == '') {
-      $('#thumbnail').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO IMAGE ERROR!<br /><span>Check Video Image And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (new_video == '') {
-      $('#video').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO ERROR!<br /><span>Check Video And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (duration == '') {
-      $('#duration').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> DURATION ERROR!<br /><span>Check Duration And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (new_material == '') {
-      $('#material').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> MATERIAL ERROR!<br /><span>Check Material And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else if (status_id == '') {
-      $('#updt_status_id').addClass("complain");
-      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> STATUS ERROR!<br /><span>Check Status And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
-
-  } else {
     $('#term_id, #week_id, #topic, #urls, #seo_keywords, #seo_description, #summary, #thumbnail, #video, #duration, #material, #updt_status_id').removeClass('complain');
 
-      if (confirm("Confirm!!\n\n Are you sure to PERFORM THIS ACTION?")) {
-        $("#submit_btn").hide();
-        $("#progress-alert").fadeIn(3000);
+    if (subject_id == '') {
+      $('#subject_id').addClass('complain');
+      $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SUBJECT ERROR!<br /><span>Check Subject And Try Again</span>').fadeIn(500).delay(3000).fadeOut(100);
 
-        var form_data = new FormData();
-        form_data.append("tutorial_id", tutorial_id);
-        form_data.append("department_id", department_id);
-        form_data.append("class_id", class_id);
-        form_data.append("subject_id", subject_id);
-        form_data.append("term_id", term_id);
-        form_data.append("week_id", week_id);
-        form_data.append("series_id", series_id);
-        form_data.append("topic", topic);
-        form_data.append("urls", urls);
-        form_data.append("seo_keywords", seo_keywords);
-        form_data.append("seo_description", seo_description);
-        form_data.append("summary", summary);
-        form_data.append("thumbnail", video_pix_file);
-        form_data.append("video", new_video);
-        form_data.append("duration", duration);
-        form_data.append("material", new_material);
-        form_data.append("status_id", status_id);
+    }else if (term_id == '') {
+        $('#term_id').addClass('complain');
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TERM ERROR!<br /><span>Check Term And Try Again</span>').fadeIn(500).delay(3000).fadeOut(100);
 
-        $.ajax({
-        //////////// loading progress bar............
-        xhr: function() {
-              var xhr = new window.XMLHttpRequest();
-              xhr.upload.addEventListener("progress", function(evt) {
-                  if (evt.lengthComputable) {
-                      var percentComplete = ((evt.loaded / evt.total) * 100).toFixed();
-                      $(".ajax-progress").width(percentComplete + '%');
-                      $(".ajax-progress").html(percentComplete+'%');
-                  }
-              }, false);
-              return xhr;
-            },
-        ///////////////////////////////////////////////
-        type: "POST",
-        url: endPoint + '/admin/tutorials/update-tutorial',
-        data: form_data,
-        dataType: "json",
-        contentType: false,
-        cache: false,
-        headers: {
-          'apiKey': apiKey,  
-          'Authorization': 'Bearer '+ login_access_key
-            },
-        processData: false,
-        success: function (info) {
-          var success = info.success;
-          var message = info.message;
+    } else if (week_id == '') {
+        $('#week_id').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> WEEK ERROR!<br /><span>Check Week And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
 
-          if (success == true) {
+    } else if (topic == '') {
+        $('#topic').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> TOPIC ERROR!<br /><span>Check Topic And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (urls == '') {
+        $('#urls').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> URL ERROR!<br /><span>Check Url And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (seo_keywords == '') {
+        $('#seo_keywords').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO KEYWORDS ERROR!<br /><span>Check Seo Keywords And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (seo_description == '') {
+        $('#seo_description').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SEO DESCRIPTION ERROR!<br /><span>Check Description And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (summary == '') {
+        $('#summary').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> SUMMARY ERROR!<br /><span>Check Summary And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (video_pix_file == '') {
+        $('#thumbnail').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO IMAGE ERROR!<br /><span>Check Video Image And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (new_video == '') {
+        $('#video').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> VIDEO ERROR!<br /><span>Check Video And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (duration == '') {
+        $('#duration').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> DURATION ERROR!<br /><span>Check Duration And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (new_material == '') {
+        $('#material').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> MATERIAL ERROR!<br /><span>Check Material And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else if (status_id == '') {
+        $('#updt_status_id').addClass("complain");
+        $('#warning-div').html('<div><i class="bi-exclamation-octagon-fill"></i></div> STATUS ERROR!<br /><span>Check Status And Try Again <span>').fadeIn(500).delay(3000).fadeOut(100);
+
+    } else {
+      $('#term_id, #week_id, #topic, #urls, #seo_keywords, #seo_description, #summary, #thumbnail, #video, #duration, #material, #updt_status_id').removeClass('complain');
+
+        if (confirm("Confirm!!\n\n Are you sure to PERFORM THIS ACTION?")) {
+          $("#submit_btn").hide();
+          $("#progress-alert").fadeIn(3000);
+
+          var form_data = new FormData();
+          form_data.append("tutorial_id", tutorial_id);
+          form_data.append("department_id", department_id);
+          form_data.append("class_id", class_id);
+          form_data.append("subject_id", subject_id);
+          form_data.append("term_id", term_id);
+          form_data.append("week_id", week_id);
+          form_data.append("series_id", series_id);
+          form_data.append("topic", topic);
+          form_data.append("urls", urls);
+          form_data.append("seo_keywords", seo_keywords);
+          form_data.append("seo_description", seo_description);
+          form_data.append("summary", summary);
+          form_data.append("thumbnail", video_pix_file);
+          form_data.append("video", new_video);
+          form_data.append("duration", duration);
+          form_data.append("material", new_material);
+          form_data.append("status_id", status_id);
+
+          $.ajax({
+          //////////// loading progress bar............
+          xhr: function() {
+                var xhr = new window.XMLHttpRequest();
+                xhr.upload.addEventListener("progress", function(evt) {
+                    if (evt.lengthComputable) {
+                        var percentComplete = ((evt.loaded / evt.total) * 100).toFixed();
+                        $(".ajax-progress").width(percentComplete + '%');
+                        $(".ajax-progress").html(percentComplete+'%');
+                    }
+                }, false);
+                return xhr;
+              },
+          ///////////////////////////////////////////////
+          type: "POST",
+          url: endPoint + '/admin/tutorials/update-tutorial',
+          data: form_data,
+          dataType: "json",
+          contentType: false,
+          cache: false,
+          headers: {
+            'apiKey': apiKey,  
+            'Authorization': 'Bearer '+ login_access_key
+          },
+          processData: false,
+          success: function (info) {
+            var message = info.message;
             var tutorial_id = info.tutorial_id;
             var urls = info.urls;
             var db_urls =info.db_urls;
@@ -3452,21 +3461,34 @@ function _update_tutorial_video(department_id,class_id,tutorial_id) {
             var thumbnail = info.thumbnail;
             var db_thumbnail =info.db_thumbnail;
 
-             _update_tutorial_video_folder(department_id, class_id, subject_id, term_id, tutorial_id, urls, db_urls, department_urls, class_urls, subject_urls, thumbnail, db_thumbnail, message);                    
-          } else {
-            $("#warning-div").html('<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message + "").fadeIn(500).delay(5000).fadeOut(100);
-            $("#submit_btn").fadeIn(3000);
-            $("#progress-alert").hide();
-          }
-        },
-        error: function (error) {
-          console.log(error);
-          $("#warning-div").html('<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again later').fadeIn(500).delay(5000).fadeOut(100);
-          $("#submit_btn").fadeIn(3000);
-          $("#progress-alert").hide();
-        }
-      });
+            _update_tutorial_video_folder(department_id, class_id, subject_id, term_id, tutorial_id, urls, db_urls, department_urls, class_urls, subject_urls, thumbnail, db_thumbnail, message);                    
+          },
+        }).catch((error) => {
+            var message = error.responseJSON
+              ? error.responseJSON.message
+              : "An error occurred. Check your internet connection and try again.";
+            $("#warning-div")
+              .html(
+                '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
+              )
+              .fadeIn(500)
+              .delay(5000)
+              .fadeOut(100);
+              $("#submit_btn").fadeIn(3000);
+              $("#progress-alert").hide();
+        });
+      }
     }
+  } catch (error) {
+    $("#warning-div")
+      .html(
+        '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
+      )
+      .fadeIn(500)
+      .delay(5000)
+      .fadeOut(100);
+    $("#submit_btn").fadeIn(3000);
+    $("#progress-alert").hide();
   }
 }
 
@@ -4230,120 +4252,136 @@ function _checkAll(){
 
 
 function _get_fetch_question_bank(tutorial_id) {
-  $('#fetch_all_question_bank').html('<div class="ajax-loader cbt-ajax-loader"><img src="all-images/images/ajax-loader2.gif"/></div>').fadeIn(500);
-  const dataString = 'tutorial_id=' + tutorial_id;
- 
-  $.ajax({
-    type: "POST",
-    url: endPoint + '/admin/cbt/fetch-question-bank-by-tutorial',
-    data: dataString,
-    dataType: "json",
-    cache: false,
-    headers: {
-      'apiKey': apiKey,  
-      'Authorization': 'Bearer '+ login_access_key
-        },
-    success: function (info) {
-      const fetch = info.questions;
-      const success = info.success;
-      const message = info.message;
-      const quiz_status = info.quiz_status;
+  try {
+    $('#fetch_all_question_bank').html('<div class="ajax-loader cbt-ajax-loader"><img src="all-images/images/ajax-loader2.gif"/></div>').fadeIn(500);
+    const dataString = 'tutorial_id=' + tutorial_id;
+  
+    $.ajax({
+      type: "POST",
+      url: endPoint + '/admin/cbt/fetch-question-bank-by-tutorial',
+      data: dataString,
+      dataType: "json",
+      cache: false,
+      headers: {
+        'apiKey': apiKey,  
+        'Authorization': 'Bearer '+ login_access_key
+      },
+      success: function (info) {
+        const fetch = info.questions;
+        const quiz_status = info.quiz_status;
 
-      let no=0;
-      let text = '';
-      if (success == true) {
-        if (!fetch || (Array.isArray(fetch) && fetch.length === 0)) {
+        let no=0;
+        let text = '';
+        for (let i = 0; i < fetch.length; i++) {
+          no++;
+          const question_id = fetch[i].question_id;
+          const question_text = fetch[i].question_text;
+          const question_pix = fetch[i].question_pix;
+          const questionsStoragePath = fetch[i].questionsStoragePath;
+          const options = fetch[i].options;
+          const answer = fetch[i].answer;
+
           text +=
-          '<div class="false-notification-div">' +"<p> " + message +" </p>" +"</div>";
-        } else {
-          for (let i = 0; i < fetch.length; i++) {
-            no++;
-            const question_id = fetch[i].question_id;
-            const question_text = fetch[i].question_text;
-            const question_pix = fetch[i].question_pix;
-            const questionsStoragePath = fetch[i].questionsStoragePath;
-            const options = fetch[i].options;
-            const answer = fetch[i].answer;
+          '<div class="question-div" id="question_'+ question_id +'">'+
+            '<div class="div-in">'+
+              '<div class="check-div">'+
+                '<label>'+
+                    '<input type="checkbox" class="child" name="question_id[]" data-value="'+ question_id +'">'+
+                    '<span>Question '+ no +'</span>'+
+                '</label>'; 
 
-            text +=
-            '<div class="question-div" id="question_'+ question_id +'">'+
-              '<div class="div-in">'+
-                '<div class="check-div">'+
-                  '<label>'+
-                      '<input type="checkbox" class="child" name="question_id[]" data-value="'+ question_id +'">'+
-                      '<span>Question '+ no +'</span>'+
-                  '</label>'; 
-
-                  if(quiz_status=='7'){
-                    text +=
-                    '<div class="btn-div">'+                    
-                      '<button class="btn" title="Edit Question" onclick="_fetch_each_question(' +"'load_questions_manually'" +"," +"'" + tutorial_id +"'" +"," +"'" + question_id +"'"+')"><i class="bi-pencil-square"></i> Edit</button>'+
-                      '<button class="btn delete-btn" id="del_btn_'+ question_id +'" title="Delete Question" onclick="_delete_question('+ "'" + question_id + "'" + ')"><i class="bi-trash"></i></button>'+             
-                    '</div>';
-                  }
+                if(quiz_status=='7'){
                   text +=
-                '</div>'+
-
-                '<div class="each-question">';
-                  if(!(question_pix=='avatar.jpg')){
-                    text += '<div class="pix-div"><img src="'+ questionsStoragePath+ '/'+ question_pix +'" alt="'+ question_id +'"/></div>';
-                  }
-
-                  text +=
-                  '<div class="text-div">'+
-                    '<div>'+ question_text +'</div>'+
-                    '<div class="options-div">';
-
-                      for (let j = 0; j < options.length; j++) {
-                        const option_id = options[j].option_id;
-                        const option_text = options[j].option_text;
-                        const option_pix = options[j].option_pix;
-                        const optionsStoragePath = options[j].optionsStoragePath;
-                        
-                        if ((option_id==answer)){
-                          text +=
-                          '<div class="each-option correct-option">'+                             
-                            '<div class="letter">'+ option_id +'</div>';
-                            if(!(option_pix=='avatar.jpg')){
-                              text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
-                            }
-                            text +=
-                            '<div>'+ option_text +'</div>'+
-                          '</div>';                       
-                        }else{
-                          text +=
-                          '<div class="each-option">'+                               
-                            '<div class="letter">'+ option_id +'</div>';
-                            if(!(option_pix=='avatar.jpg')){
-                              text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
-                            }
-                            text +=
-                            '<div>'+ option_text +'</div>'+
-                          '</div>';
-                        }     
-                      }
-                    text += '</div>'+ 
-                  '</div>'+
-                '</div>'+         
+                  '<div class="btn-div">'+                    
+                    '<button class="btn" title="Edit Question" onclick="_fetch_each_question(' +"'load_questions_manually'" +"," +"'" + tutorial_id +"'" +"," +"'" + question_id +"'"+')"><i class="bi-pencil-square"></i> Edit</button>'+
+                    '<button class="btn delete-btn" id="del_btn_'+ question_id +'" title="Delete Question" onclick="_delete_question('+ "'" + question_id + "'" + ')"><i class="bi-trash"></i></button>'+             
+                  '</div>';
+                }
+                text +=
               '</div>'+
-            '</div>';          
-          }  
+
+              '<div class="each-question">';
+                if(!(question_pix=='avatar.jpg')){
+                  text += '<div class="pix-div"><img src="'+ questionsStoragePath+ '/'+ question_pix +'" alt="'+ question_id +'"/></div>';
+                }
+
+                text +=
+                '<div class="text-div">'+
+                  '<div>'+ question_text +'</div>'+
+                  '<div class="options-div">';
+
+                    for (let j = 0; j < options.length; j++) {
+                      const option_id = options[j].option_id;
+                      const option_text = options[j].option_text;
+                      const option_pix = options[j].option_pix;
+                      const optionsStoragePath = options[j].optionsStoragePath;
+                      
+                      if ((option_id==answer)){
+                        text +=
+                        '<div class="each-option correct-option">'+                             
+                          '<div class="letter">'+ option_id +'</div>';
+                          if(!(option_pix=='avatar.jpg')){
+                            text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
+                          }
+                          text +=
+                          '<div>'+ option_text +'</div>'+
+                        '</div>';                       
+                      }else{
+                        text +=
+                        '<div class="each-option">'+                               
+                          '<div class="letter">'+ option_id +'</div>';
+                          if(!(option_pix=='avatar.jpg')){
+                            text +=  '<div class="pix"><img src="'+ optionsStoragePath +'/'+ option_pix +'" alt="'+ option_id +'"/></div>';
+                          }
+                          text +=
+                          '<div>'+ option_text +'</div>'+
+                        '</div>';
+                      }     
+                    }
+                  text += '</div>'+ 
+                '</div>'+
+              '</div>'+         
+            '</div>'+
+          '</div>';          
         }    
         $('#fetch_all_question_bank').html(text);
-         _checkAll();
-      } else {
+        _checkAll();
         const response = info.response;
         if (response < 100) {
           _logout();
         }
-        text +=
-          '<div class="false-notification-div">' +
-            "<p> " + message +" </p>" +
-          "</div>";
-        $('#fetch_all_question_bank').html(text);
-      }
-    },
-  });
+      },
+    }).catch((error) => {
+      const message = error.responseJSON
+        ? error.responseJSON.message
+        : "An error occurred. Please try again";
+      $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> ' + message,
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+        $("#fetch_all_question_bank").html(`
+          <div class="false-notification-div">
+            <p> ${message} </p>
+          </div>`
+        );
+    });
+  } catch (error) {
+    $("#warning-div")
+        .html(
+          '<div><i class="bi-exclamation-octagon-fill"></i></div> An error occurred. Please try again',
+        )
+        .fadeIn(500)
+        .delay(5000)
+        .fadeOut(100);
+        $("#fetch_all_question_bank").html(`
+          <div class="false-notification-div">
+            <p> An error occurred. Please try again </p>
+          </div>`
+        );
+  }
 }
 
 
