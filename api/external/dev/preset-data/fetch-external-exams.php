@@ -20,7 +20,7 @@ try {
 		$types .= "s";
 	}
 
-	$where = !empty($conditions) ? "WHERE " . implode(" AND ", $conditions) : "";
+	$where = !empty($conditions) ? "WHERE " . implode(" AND ", $conditions) : "WHERE statusId = 1";
 
 	///// fetch from EXTERNAL_EXAMS_TAB
 	$selectQuery = "SELECT examId, examName, examAbbreviation FROM EXTERNAL_EXAMS_TAB $where";

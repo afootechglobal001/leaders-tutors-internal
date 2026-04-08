@@ -1,19 +1,17 @@
 <?php
 function _staff_accesskey_validation($conn, $accessKey)
 {
-    $getQuery = "SELECT * FROM STAFF_VIEW WHERE accessKey=? AND statusId=?";
+    $getQuery = "SELECT * FROM STAFF_VIEW WHERE access_key=? AND status_id=?";
     $getParams = [$accessKey, 1];
     $getResult = selectQuery($conn, $getQuery, 'si', $getParams);
     $count = count($getResult);
     if ($count > 0) {
         $userData = $getResult[0];
-        $firstName = $userData['firstName'];
-        $lastName = $userData['lastName'];
         $response = [
             "checkSession" => true,
-            "loginStaffId" => $userData['staffId'],
-            "loginFullname" => "$firstName $lastName",
-            "loginRoleid" => $userData['roleId']
+            "loginStaffId" => $userData['staff_id'],
+            "loginFullname" => $userData['fullname'],
+            "loginRoleid" => $userData['role_id']
         ];
     } else {
         $response = [
@@ -57,7 +55,7 @@ function _get_setup_backend_settings_detail($conn, $settingsId)
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 function _action_performed_by($conn, $staffId)
 {
-    $getQuery = "SELECT CONCAT(firstName,' ',lastName) AS fullname, emailAddress FROM STAFF_TAB WHERE staffId = ?";
+    $getQuery = "SELECT fullname, email FROM STAFF_VIEW WHERE staff_id = ?";
     $getParams = [$staffId];
     $getResult = selectQuery($conn, $getQuery, 's', $getParams);
     return ($getResult[0]);
@@ -68,7 +66,7 @@ function _get_status_details($conn, $statusId)
 {
     $getQuery = "SELECT statusId, statusName FROM SETUP_STATUS_TAB WHERE statusId = ?";
     $getParams = [$statusId];
-    $getResult = selectQuery($conn, $getQuery, 's', $getParams);
+    $getResult = selectQuery($conn, $getQuery, 'i', $getParams);
     return ($getResult[0]);
 }
 
@@ -84,7 +82,7 @@ function _get_department_details($conn, $departmentId)
 ////// get EXTERNAL EXAM details
 function _get_external_exam_details($conn, $examId)
 {
-    $getQuery = "SELECT examId, examName FROM EXTERNAL_EXAMS_TAB WHERE examId = ?";
+    $getQuery = "SELECT examId, examName, examLogo, examAbbreviation FROM EXTERNAL_EXAMS_TAB WHERE examId = ?";
     $getParams = [$examId];
     $getResult = selectQuery($conn, $getQuery, 's', $getParams);
     return ($getResult[0]);

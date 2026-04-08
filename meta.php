@@ -21,5 +21,10 @@
 <script src="<?php echo $website_url ?>/slide-property/product-carousel/carousel.js" type="text/javascript"></script>
 
 <meta property="og:type" content="Website" />
+<<<<<<< HEAD
 <meta property="og:site_name" content="<?php echo $thename ?>">
 <meta property="og:url" content="<?php echo $website_auto_url ?>" />
+=======
+<meta property="og:site_name" content="<?php echo $thename?>">
+<meta property="og:url" content="<?php echo $website_auto_url?>" />
+>>>>>>> 0752b72dc2e6dd1baa65213aa9d712d64bfd45c6

@@ -184,7 +184,7 @@
 
 
     <script>
-        _getFetchDepartmentClassSubject();
+        _getFetchTutorialDepartmentClassSubject();
     </script>
 <?php } ?>
 

@@ -29,7 +29,7 @@ try {
         'allRecordCount' => $allRecordCount,
         'data' => $statusData
     ];
- }catch (Throwable $e) {
+} catch (Throwable $e) {
     ErrorHandler::handle($e);
 }
 http_response_code($response['response']); // sets HTTP status

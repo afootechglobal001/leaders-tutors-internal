@@ -751,6 +751,82 @@ function _getFetchDepartmentClassSubject() {
 }
 
 
+function _getFetchTutorialDepartmentClassSubject() {
+	$('#fetch_department_class_subject_details').html('<div class="ajax-loader2"><br clear="all"/> Loading... <br clear="all"/><img src="' + website_url + '/account/all-images/images/ajax-loader2.gif"/></div>').fadeIn('fast');
+	var action = 'fetch-deparment-class-subjects';
+	$.ajax({
+		type: "POST",
+		url: endPoint + '/user/tutorials/' + action,
+		dataType: "json",
+		cache: false,
+		headers: {
+			'apiKey': apiKey,
+			'Authorization': 'Bearer ' + login_access_key
+		},
+		success: function (info) {
+			var response = info.response;
+			if (response < 100) {
+				_logOut();
+			} else {
+				var getAllData = info.subjects;
+				var success = info.success;
+				var message = info.message;
+				var all_record_count = info.all_record_count;
+
+				var no = 0;
+				var text = '';
+				if (success == true) {
+					for (var i = 0; i < getAllData.length; i++) {
+						no++;
+						var subject_id = getAllData[i].subject_id;
+						var subject_name = getAllData[i].subject_name.toUpperCase();
+						var terms = getAllData[i].terms;
+
+						text +=
+							'<div class="quest-faq-div animated fadeIn">' +
+							'<div class="faq-title-text">' +
+							'<h3>' + subject_name + ' </h3>' +
+							'<div class="expand-div" id="' + "view" + no + "num" + '" title="Click to View Terms" onclick="_collapse(' + "'" + 'view' + no + "'" + ')">&nbsp;<i class="bi-chevron-down"></i>&nbsp;</div>' +
+							'</div>';
+
+						text += '<div class="faq-answer-div" id="' + "view" + no + "answer" + '" style="display:none;">';
+
+						for (var j = 0; j < terms.length; j++) {
+							var term_id = terms[j].term_id;
+							var term_name = terms[j].term_name;
+							var total_number_of_videos = terms[j].total_number_of_videos;
+							text += '<button class="btn" title="' + term_name + '" onClick="_getPageWithId(' + "'video_page'" + "," + "'" + term_id + "'" + "," + "'" + subject_id + "'" + ')"><i class="bi-pencil-square"></i> ' + term_name + ' &nbsp; <span>' + total_number_of_videos + '</span>&nbsp;<i class="bi-play-btn-fill"></i></button>';
+						}
+
+						text += '</div>' +
+							'</div>';
+					}
+				} else {
+					if ((loginUserInfoSession.subscription.length == 0) || (response == 100)) {
+						sessionStorage.setItem("expireDate", JSON.stringify('0'));
+						let expireDate = JSON.parse(sessionStorage.getItem("expireDate"));
+						$('#get_user_remaining_expires_days').html(expireDate);
+						text = '<div class="false-notification-div">' +
+							"<p> " + message + " </p>" +
+							'<button class="btn" onClick="_getForm(' + "'user_subcription'" + ')"> Click here to subscribe <i class="bi bi-send-check-fill"></i></button>'
+						'</div>';
+					} else {
+						text = '<div class="false-notification-div">' +
+							"<p> " + message + " </p>" +
+							'</div>';
+					}
+				}
+			}
+			$('#current_count').html(no);
+			$('#total_count').html(all_record_count);
+			$('#fetch_department_class_subject_details').html(text);
+		},
+		error: function (error) {
+			console.log(error);
+			_warningAlert(null, 'ERROR!', 'An error occurred. Please try again');
+		}
+	});
+}
 
 
 
