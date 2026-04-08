@@ -35,3 +35,4 @@
 <script src="<?php echo $websiteUrl?>/portal/js/useDashboard.js?v=<?php echo $codeVersion?>" type="text/javascript"></script>
 <script src="<?php echo $websiteUrl?>/portal/js/useTutorial.js?v=<?php echo $codeVersion?>" type="text/javascript"></script>
 <script src="<?php echo $websiteUrl?>/portal/js/useExam.js?v=<?php echo $codeVersion?>" type="text/javascript"></script>
+<script src="<?php echo $websiteUrl?>/portal/js/useYears.js?v=<?php echo $codeVersion?>" type="text/javascript"></script>
