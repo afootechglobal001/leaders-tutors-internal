@@ -16,7 +16,7 @@
             <div class="content-title">
                 <div class="title">
                     <i class="bi bi-calendar2-plus"></i>
-                    <p>Academic Years </p>
+                    <p>Academic Years</p>
                 </div>
             </div>
 
@@ -25,103 +25,11 @@
                     <span><i class="bi bi-calendar2-plus"></i> <span>DEPARTMENT LIST</span></span>
                 </div>
 
-                <div class="pages-toggle-back-div">
-                    <div class="pages-toggle-div">
-                        <div class="pages-toggle-title" title="Click to view years">
-                            <div class="title-back-div">
-                                <h3>SCIENCE</h3>
-                            </div>
+                <div class="pages-toggle-back-div" id="departmentByYearContent">
+                    <script>_fetchYearByDepartmentData();</script>
 
-                            <div class="btn-back-div">
-                                <button class="btn" title="ADD NEW YEAR" onclick="_getForm({page: 'yearReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> ADD YEAR</button>
-                                <div class="expand-div" id="view1num" onclick="_chevronCollapse('view1');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                            </div>
-                        </div>
-
-                        <div class="toggle-expand-div" id="view1answer" style="display: none;">
-                            <div class="pages-toggle-back-div">
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>2020</h3>
-                                            <div class="bottom-back-div">
-                                                <div class="bottom-text">No of Exams <div class="count">10</div></div> |
-                                                <div class="bottom-text">No of Subjects <div class="count">10</div></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="EDIT YEAR" onclick="_getForm({page: 'yearReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> EDIT</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>2021</h3>
-                                            <div class="bottom-back-div">
-                                                <div class="bottom-text">No of Exams <div class="count">10</div></div> |
-                                                <div class="bottom-text">No of Subjects <div class="count">10</div></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="EDIT YEAR" onclick="_getForm({page: 'yearReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> EDIT</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pages-toggle-div">
-                        <div class="pages-toggle-title" title="Click to view years">
-                            <div class="title-back-div">
-                                <h3>ART</h3>
-                            </div>
-
-                            <div class="btn-back-div">
-                                <button class="btn" title="ADD NEW YEAR" onclick="_getForm({page: 'yearReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> ADD YEAR</button>
-                                <div class="expand-div" id="view2num" onclick="_chevronCollapse('view2');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                            </div>
-                        </div>
-
-                        <div class="toggle-expand-div" id="view2answer" style="display: none;">
-                            <div class="pages-toggle-back-div">
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>2020</h3>
-                                            <div class="bottom-back-div">
-                                                <div class="bottom-text">No of Exams <div class="count">10</div></div> |
-                                                <div class="bottom-text">No of Subjects <div class="count">10</div></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="EDIT YEAR" onclick="_getForm({page: 'yearReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> EDIT</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>2021</h3>
-                                            <div class="bottom-back-div">
-                                                <div class="bottom-text">No of Exams <div class="count">10</div></div> |
-                                                <div class="bottom-text">No of Subjects <div class="count">10</div></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="EDIT YEAR" onclick="_getForm({page: 'yearReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> EDIT</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="content-loading-div">
+                        <img src="<?php echo $websiteUrl ?>/images/spinner.gif" alt="Loading" />
                     </div>
                 </div>
             </div>
@@ -130,11 +38,20 @@
 <?php } ?>
 
 <?php if ($page == 'yearReg') { ?>
+    <script>
+        useEachDepartmentSession = JSON.parse(sessionStorage.getItem("useEachDepartmentSession"));
+    </script>
+
+    <script>
+        useSingleYearSession = JSON.parse(sessionStorage.getItem("useSingleYearSession"));
+        $('#yearPageTitle').html(useSingleYearSession?.yearId ? 'UPDATE YEAR' : 'ADD YEAR');
+        $('#yearSubTitle, #yearSubTitle2').html(useSingleYearSession?.yearId ? 'update this year' : 'create new year');
+    </script>
     <div class="slide-form-div" data-aos="fade-left" data-aos-duration="900">
         <div class="form-title-div">
             <div class="title-div">
                 <div class="icon-div"><i class="bi bi-calendar2-plus"></i></div>
-                <h3 id="pageTitle">ADD YEAR</h3>
+                <h3 id="yearPageTitle">ADD YEAR</h3>
             </div>
             <div class="btn-div">
                 <button class="btn" title="Close" onclick="_alertClose(<?php echo $modalLayer ?>);">
@@ -146,7 +63,36 @@
         <!-- /////////// Title ////////////////////////////// -->
         <div class="container-back-div">
             <div class="form-notification">
-                <p>You are about to create a new video<span id="subTitle"></span>. Please complete the form below with accurate details to successfully create a new video<span id="subTitle2"></span>.</p>
+                <p>You are about to add a new year<span id="yearSubTitle"></span>. Please complete the form below with accurate details to successfully create a new year<span id="yearSubTitle2"></span>.</p>
+            </div>
+
+            <div class="main-content-div form-main-content-div">
+                <div class="tables-content-div form-main-content">
+                    <div class="content-title">
+                        <div class="title">
+                            <i class="bi bi-info-circle"></i>
+                            <p>Department Info</p>
+                        </div>
+                    </div>
+
+                    <div class="form-container">
+                        <div class="alert alert-success form-alert-div">
+                            <div class="alert-list-div">
+                                <div class="alert-list-back-div">
+                                    <div class="alert-list">
+                                        <div>Department Name:</div>
+                                        <div>
+                                            <span id="departmentName"><script>
+                                                    $("#departmentName").html(useEachDepartmentSession?.departmentName);
+                                                </script>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="main-content-div form-main-content-div">
@@ -159,11 +105,13 @@
                     </div>
 
                     <div class="form-container">
-                        <div class="text_field_container" id="yearId_container">
+                        <div class="text_field_container" id="yearValue_container">
                             <script>
                                 textField({
-                                    id: 'yearId',
+                                    id: 'yearValue',
                                     title: 'Year',
+                                    onKeyPressFunction: 'isNumberCheck(event);',
+                                    value: useSingleYearSession?.yearValue ?? '',
                                 });
                             </script>
                         </div>
@@ -189,30 +137,12 @@
 
                             <div class="permission-toggle-div">
                                 <div class="toggle-title">Registered Exams</div>
-                                <div class="fetch-toggle" id="dashboard">
-                                    <div class="each-toggle-div">
-                                        <span>WAEC</span>
-                                        <label for="role_1" class="switch">
-                                            <input type="checkbox" class="child" id="role_1" name="rolePermissionId[]" data-value="1">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
-
-                                    <div class="each-toggle-div">
-                                        <span>NECO</span>
-                                        <label for="role_2" class="switch">
-                                            <input type="checkbox" class="child" id="role_2" name="rolePermissionId[]" data-value="2">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
+                                <div class="fetch-toggle" id="examToggle">
+                                    <script>
+                                        _fetchExternalExamToggle();
+                                    </script>
                                 </div>
                             </div>
-
-                            <script>
-                               _toggleCheck();
-                            </script>
                         </div>
                     </div>
                 </div>
@@ -236,39 +166,12 @@
 
                             <div class="permission-toggle-div">
                                 <div class="toggle-title">Registered Subjects</div>
-                                <div class="fetch-toggle" id="dashboard">
-                                    <div class="each-toggle-div">
-                                        <span>CHEMISTRY</span>
-                                        <label for="role_1" class="switch">
-                                            <input type="checkbox" class="child" id="role_1" name="rolePermissionId[]" data-value="1">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
-
-                                    <div class="each-toggle-div">
-                                        <span>PHYSICS</span>
-                                        <label for="role_2" class="switch">
-                                            <input type="checkbox" class="child" id="role_2" name="rolePermissionId[]" data-value="2">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
-
-                                    <div class="each-toggle-div">
-                                        <span>ENGLISH LANGUAGE</span>
-                                        <label for="role_2" class="switch">
-                                            <input type="checkbox" class="child" id="role_2" name="rolePermissionId[]" data-value="2">
-                                            <span class="slider"></span>
-                                            <span class="toggle-label">No</span>
-                                        </label>
-                                    </div>
+                                <div class="fetch-toggle" id="subjectToggle">
+                                    <script>
+                                        _fetchExternalSubjectToggle();
+                                    </script>
                                 </div>
                             </div>
-
-                            <script>
-                               _toggleCheck();
-                            </script>
                         </div>
                     </div>
                 </div>
@@ -289,14 +192,17 @@
                                 selectField({
                                     id: 'statusId',
                                     title: 'Select Status',
+                                    fieldValue: useSingleYearSession?.statusData?.statusId ?? '',
+                                    fieldLabel: useSingleYearSession?.statusData?.statusName ?? ''
                                 });
+                                _getSelectStatusId('statusId', '1,2');
                             </script>
                         </div>
                     </div>
                 </div>
 
                 <div class="btn-div">
-                    <button class="btn" title="SUBMIT" id="submitBtn" onclick=""> <i class="bi-check"></i> SUBMIT </button>
+                    <button class="btn" title="SUBMIT" id="submitBtn" onclick="_createAndUpdateYear();"> <i class="bi-check"></i> SUBMIT </button>
                 </div>
             </div>
         </div>

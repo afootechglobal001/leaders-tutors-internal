@@ -65,20 +65,6 @@ function getFirstLettersOfEachWord(str) {
     .join(""); // join into a single string
 }
 
-function filters(selectBoxId) {
-  var valThis = $("#search" + selectBoxId).val();
-  $(
-    "#page" +
-      selectBoxId +
-      " > tbody .tb-row, .grid-div, .faq-back-div, .testimony-div, .exam-div, .book-back-div"
-  ).each(function () {
-    var text = $(this).text();
-    text.toLowerCase().indexOf(valThis.toLowerCase()) > -1
-      ? $(this).show()
-      : $(this).hide();
-  });
-}
-
 function _chevronCollapse(divId) {
   var x = document.getElementById(divId + "num");
   var titleDiv = x.closest(".pages-toggle-title");
@@ -118,28 +104,6 @@ function _staffValidationCheck(code) {
     _logOut();
     return;
   }
-}
-
-function _toggleCheck() {
-  $(".switch input").on("change", function () {
-    const label = $(this).next().next(); // Grab the toggle-label span
-    label.text($(this).prop("checked") ? "Yes" : "No");
-  });
-}
-
-function formatDate(date) {
-  if (!date) return "";
-  // If input comes in as YYYY-MM-DD (from <input type="date">)
-  if (date.includes("-")) {
-    const [year, month, day] = date.split("-");
-    return `${year}/${month}/${day}`;
-  }
-  // If input comes in as DD/MM/YYYY
-  if (date.includes("/")) {
-    const [day, month, year] = date.split("/");
-    return `${year}/${month}/${day}`;
-  }
-  return date; // fallback
 }
 
 function _fetchFormatDate(dateString) {
