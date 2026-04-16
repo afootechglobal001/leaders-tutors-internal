@@ -26,6 +26,7 @@
                         id: 'departmentId',
                         title: 'Select Department'
                     });
+                    _getSelectDepartment('departmentId');
                 </script>
             </div>
 
@@ -35,6 +36,7 @@
                         id: 'examId',
                         title: 'Select Exam'
                     });
+                    _getSelectTutorialExam('examId');
                 </script>
             </div>
             <div class="btn-div">
@@ -76,7 +78,6 @@
                     <div class="pages-toggle-div">
                         <div class="pages-toggle-title" title="Click to view subjects">
                             <div class="title-back-div">
-                                <button class="btn" title="DELETE EXAM" onclick=""><i class="bi-trash"></i></button>
                                 <h3>SCIENCE (2020 WAEC)</h3>
                             </div>
 
@@ -364,7 +365,6 @@
                     <div class="pages-toggle-div">
                         <div class="pages-toggle-title" title="Click to view subjects">
                             <div class="title-back-div">
-                                <button class="btn" title="DELETE EXAM" onclick=""><i class="bi-trash"></i></button>
                                 <h3>SCIENCE (2021 WAEC)</h3>
                             </div>
 
