@@ -40,7 +40,7 @@
                 </script>
             </div>
             <div class="btn-div">
-                <button class="btn" id="proceedPayBtn" onclick="_getActivePage({page:'tutorialPage', divid:'tutorialPage'});">PROCEED <i class="bi-arrow-right"></i></button>
+                <button class="btn" id="proceedBtn" onclick="_getActivePage({page:'tutorialPage', divid:'tutorialPage'});">PROCEED <i class="bi-arrow-right"></i></button>
             </div>
         </div>
     </div>
