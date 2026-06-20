@@ -17,10 +17,14 @@
 	/// Admin Middleware Urls ///
 	var adminLocalUrl=websiteUrl+'/config/admin/code'; /// For Admin Login Local Url //
 	var adminPortalLocalUrl=websiteUrl+'/portal/config/code'; /// For Admin Portal Local Url //
+	var uploadTutorialUrl=websiteUrl+'/portal/config/upload-tutorial'; /// For Upload Tutorial Url //
 	var adminPortalUrl=websiteUrl+'/'; /// For Portal Url //
 	var adminUrl=websiteUrl+'/admin'; /// For Admin Url //
 	var adminDashboardUrl=websiteUrl+'/portal'; /// For Admin Portal Local Url //
 
 	var staffPixPath=documentdocumentStoragePath+'/staff-pix/'; /// For Staff Profile Pix Path //
 	var examLogoPath=websiteUrl+'/uploaded_files/examLogo/'; /// For Exam Logo Path //
+	var tutorialPixPath=websiteUrl+'/uploaded_files/tutorialPictures/'; /// For Tutorial Picture Path //
+	var tutorialMaterialPath=websiteUrl+'/uploaded_files/tutorialMaterials/'; /// For Tutorial Material Path ///
+	var tutorialVideoPath=websiteUrl+'/uploaded_files/tutorialVideos/'; /// For Tutorial Video Path ///
 </script>

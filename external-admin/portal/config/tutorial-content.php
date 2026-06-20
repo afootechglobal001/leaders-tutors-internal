@@ -40,7 +40,7 @@
                 </script>
             </div>
             <div class="btn-div">
-                <button class="btn" id="proceedBtn" onclick="_getActivePage({page:'tutorialPage', divid:'tutorialPage'});">PROCEED <i class="bi-arrow-right"></i></button>
+                <button class="btn" id="proceedBtn" onclick="_proceedFetchTutorialByDepartmentAndExam();">PROCEED <i class="bi-arrow-right"></i></button>
             </div>
         </div>
     </div>
@@ -70,584 +70,15 @@
 
             <div class="inner-table-content">
                 <div class="alert alert-success top-alert-div animated fadeIn">
-                    <span><i class="bi bi-play-circle"></i> <span>SCIENCE</span> / <span>WAEC</span></span>
+                    <span><i class="bi bi-play-circle"></i> <span id="departmentName"></span>
+                        / <span id="examAbbreviation"></span></span>
                 </div>
 
                 <!-- Department Year Toggle container -->
-                <div class="pages-toggle-back-div">
-                    <div class="pages-toggle-div">
-                        <div class="pages-toggle-title" title="Click to view subjects">
-                            <div class="title-back-div">
-                                <h3>SCIENCE (2020 WAEC)</h3>
-                            </div>
-
-                            <div class="btn-back-div">
-                                <div class="expand-div" id="view1num" onclick="_chevronCollapse('view1');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                            </div>
-                        </div>
-
-                        <div class="toggle-expand-div" id="view1answer" style="display: none;">
-                            <!--Each Subject Toggle container -->
-                            <div class="pages-toggle-back-div">
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>CHEMISTRY</h3>
-                                            <div class="bottom-text">No of Videos <div class="count">10</div></div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="ADD NEW VIDEO" onclick="_getForm({page: 'tutorialReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> ADD NEW VIDEO</button>
-                                            <div class="expand-div" id="view11num" onclick="_chevronCollapse('view11');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="toggle-expand-div" id="view11answer" style="display: none;">
-                                        <div class="topics-wrapper">
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT" onclick="_getForm({page: 'videoPageDetails', url: adminPortalLocalUrl})">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>PHYSICS</h3>
-                                            <div class="bottom-text">No of Videos <div class="count">10</div></div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="ADD NEW VIDEO" onclick=""><i class="bi-plus-square"></i> ADD NEW VIDEO</button>
-                                            <div class="expand-div" id="view12num" onclick="_chevronCollapse('view12');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="toggle-expand-div" id="view12answer" style="display: none;">
-                                        <div class="topics-wrapper">
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pages-toggle-div">
-                        <div class="pages-toggle-title" title="Click to view subjects">
-                            <div class="title-back-div">
-                                <h3>SCIENCE (2021 WAEC)</h3>
-                            </div>
-
-                            <div class="btn-back-div">
-                                <div class="expand-div" id="view2num" onclick="_chevronCollapse('view2');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                            </div>
-                        </div>
-
-                        <div class="toggle-expand-div" id="view2answer" style="display: none;">
-                            <!--Each Subject Toggle container -->
-                            <div class="pages-toggle-back-div">
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>CHEMISTRY</h3>
-                                            <div class="bottom-text">No of Videos <div class="count">10</div></div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="ADD NEW VIDEO" onclick="_getForm({page: 'tutorialReg', url: adminPortalLocalUrl});"><i class="bi-plus-square"></i> ADD NEW VIDEO</button>
-                                            <div class="expand-div" id="view11num" onclick="_chevronCollapse('view11');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="toggle-expand-div" id="view11answer" style="display: none;">
-                                        <div class="topics-wrapper">
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="pages-toggle-div">
-                                    <div class="pages-toggle-title" title="Click to view subjects">
-                                        <div class="title-back-div subject-title-div">
-                                            <h3>PHYSICS</h3>
-                                            <div class="bottom-text">No of Videos <div class="count">10</div></div>
-                                        </div>
-
-                                        <div class="btn-back-div">
-                                            <button class="btn" title="ADD NEW VIDEO" onclick=""><i class="bi-plus-square"></i> ADD NEW VIDEO</button>
-                                            <div class="expand-div" id="view12num" onclick="_chevronCollapse('view12');">&nbsp;<i class="bi-plus"></i>&nbsp;</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="toggle-expand-div" id="view12answer" style="display: none;">
-                                        <div class="topics-wrapper">
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="topics-container">
-                                                <div class="image-div">
-                                                    <img src="<?php echo $websiteUrl ?>/images/cables.jpg" alt="CABLES AND CONNECTORS" />
-                                                </div>
-
-                                                <div class="content-div">
-                                                    <div class="top-content">
-                                                        <h4>CABLES AND CONNECTORS</h4>
-                                                        <p>At the end of this lesson, the student should be able to:</p>
-                                                        <p>1. List network cables.</p>
-                                                        <p>2. list network connect.</p>
-                                                    </div>
-
-                                                    <div class="bottom-content">
-                                                        <div class="left-div">
-                                                            <div>
-                                                                Status:
-                                                                <span class="status-div ACTIVE">ACTIVE</span>
-                                                            </div>
-
-                                                            <div>
-                                                                Duration:
-                                                                <span class="duration"><strong>15:30</strong></span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="btn-div">
-                                                            <button class="btn edit" title="EDIT VIDEO">
-                                                                <i class="bi-pencil-square"></i> EDIT
-                                                            </button>
-
-                                                            <button class="btn" title="VIEW CBT">
-                                                                <span class="count">10</span> CBT
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="pages-toggle-back-div" id="fetchTutorialDepartmentExamContent">
+                    <script>
+                        _fetchTutorialByDepartmentAndExamData();
+                    </script>
                 </div>
             </div>
         </div>
@@ -655,11 +86,21 @@
 <?php } ?>
 
 <?php if ($page == 'tutorialReg') { ?>
+    <script>
+        selectedTutorialSession = JSON.parse(sessionStorage.getItem("selectedTutorialSession"));
+    </script>
+
+    <script>
+        useEachTutorialSession = JSON.parse(sessionStorage.getItem("useEachTutorialSession"));
+        $('#formTitle').html(useEachTutorialSession?.tutorialId ? 'UPDATE TUTORIAL' : 'TUTORIAL REGISTRATION');
+        $('#subTitle, #subTitle2').html(useEachTutorialSession?.tutorialId ? 'update this tutorial' : 'create a new tutorial');
+    </script>
+
     <div class="slide-form-div" data-aos="fade-left" data-aos-duration="900">
         <div class="form-title-div">
             <div class="title-div">
                 <div class="icon-div"><i class="bi bi-play-circle"></i></div>
-                <h3 id="pageTitle">UPLOAD NEW VIDEO</h3>
+                <h3 id="formTitle">UPLOAD NEW VIDEO</h3>
             </div>
             <div class="btn-div">
                 <button class="btn" title="Close" onclick="_alertClose(<?php echo $modalLayer ?>);">
@@ -671,7 +112,7 @@
         <!-- /////////// Title ////////////////////////////// -->
         <div class="container-back-div">
             <div class="form-notification">
-                <p>You are about to create a new video<span id="subTitle"></span>. Please complete the form below with accurate details to successfully create a new video<span id="subTitle2"></span>.</p>
+                <p>You are about to <span id="subTitle"></span>. Please complete the form below with accurate details to successfully <span id="subTitle2"></span>.</p>
             </div>
 
             <div class="main-content-div form-main-content-div">
@@ -688,9 +129,26 @@
                             <div class="alert-list-div">
                                 <div class="alert-list-back-div">
                                     <div class="alert-list">
+                                        <div>Year:</div>
+                                        <div>
+                                            <span id="year">
+                                                <script>
+                                                    $("#year").html(selectedTutorialSession?.yearValue);
+                                                </script>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="alert-list-back-div">
+                                    <div class="alert-list">
                                         <div>Exam:</div>
                                         <div>
-                                            <span id="userId">WAEC</span>
+                                            <span id="examAbbreviation">
+                                                <script>
+                                                    $("#examAbbreviation").html(selectedTutorialSession?.examAbbreviation);
+                                                </script>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -699,7 +157,11 @@
                                     <div class="alert-list">
                                         <div>Department:</div>
                                         <div>
-                                            <span id="userId">SS SCIENCE</span>
+                                            <span id="formDepartmentName">
+                                                <script>
+                                                    $("#formDepartmentName").html(selectedTutorialSession?.departmentName);
+                                                </script>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -708,7 +170,11 @@
                                     <div class="alert-list">
                                         <div>Subject:</div>
                                         <div>
-                                            <span id="emailAddress">CHEMISTRY</span>
+                                            <span id="subjectName">
+                                                <script>
+                                                    $("#subjectName").html(selectedTutorialSession?.subjectName);
+                                                </script>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -723,16 +189,17 @@
                     <div class="content-title">
                         <div class="title">
                             <i class="bi bi-play-circle"></i>
-                            <p>Topic</p>
+                            <p>Title</p>
                         </div>
                     </div>
 
                     <div class="form-container">
-                        <div class="text_field_container" id="topic_container">
+                        <div class="text_field_container" id="tutorialTitle_container">
                             <script>
                                 textField({
-                                    id: 'topic',
-                                    title: 'Topic',
+                                    id: 'tutorialTitle',
+                                    title: 'Tutorial Title',
+                                    value: useEachTutorialSession?.tutorialTitle ?? ''
                                 });
                             </script>
                         </div>
@@ -751,8 +218,8 @@
 
                     <div class="form-container">
                         <div class="page-content-back-div">
-                            <textarea class="text_field" style="width:100%;" rows="24" id="summary" title="TYPE EXAM INCENTIVES HERE"></textarea>
-                            <div class="issueText" id="issue_incentives"></div>
+                            <textarea class="text_field" style="width:100%;" rows="24" id="tutorialDescription" title="TYPE TUTORIAL DESCRIPTION HERE"></textarea>
+                            <div class="issueText" id="issue_tutorialDescription"></div>
                         </div>
                     </div>
                 </div>
@@ -760,8 +227,15 @@
                 <script>
                     $(document).ready(function() {
                         tinymce.init({
-                            selector: '#summary',
+                            selector: '#tutorialDescription',
                             plugins: "link image table",
+                            setup: function(editor) {
+                                editor.on('init', function() {
+                                    setTimeout(function() {
+                                        editor.setContent(useEachTutorialSession?.tutorialDescription ?? '');
+                                    }, 300);
+                                });
+                            }
                         });
                     });
                 </script>
@@ -771,26 +245,33 @@
             <div class="main-content-div form-main-content-div">
                 <div class="tables-content-div form-main-content">
                     <div class="content-title">
-                        <label for="videoPicture" style="cursor:pointer;" title="Click To Upload Video Picture">
+                        <label for="tutorialPicture" style="cursor:pointer;" title="Click To Upload Tutorial Picture">
                             <div class="title">
                                 <i class="bi-upload"></i>
-                                <p>Click To Upload Video Picture</p>
+                                <p>Click To Upload Tutorial Picture</p>
                             </div>
                         </label>
                     </div>
 
                     <div class="form-container">
                         <div class="pdf-back-div">
-                            <label for="videoPicture">
+                            <label for="tutorialPicture">
                                 <div class="div-in" id="video_upload_area">
-                                    <div class="pix-div" title="Click To Upload Video Picture">
-                                        <img id="passportPhotographPreview" src="<?php echo $websiteUrl ?>/images/defaults.png" alt="Default Image">
-                                        <input type="file" id="videoPicture" style="display:none" accept=".jpg, .jpeg, .png, .gif, .bmp, .tiff, .webp, .svg, .avif" onchange="passportPhotographPreview.UpdatePreview(this);" />
+                                    <div class="pix-div" title="Click To Upload Tutorial Picture">
+                                        <img id="tutorialPicturePreview" src="<?php echo $websiteUrl ?>/images/defaults.png" alt="Default Image">
+                                        <input type="file" id="tutorialPicture" style="display:none" accept=".jpg, .jpeg, .png, .gif, .bmp, .tiff, .webp, .svg, .avif" onchange="tutorialPicturePreview.UpdatePreview(this);" />
                                     </div>
                                 </div>
                             </label>
+                            <div class="issue-text" id="issues_tutorialPicture"></div>
                         </div>
                     </div>
+                    <script>
+                        $(document).ready(function() {
+                            const tutorialPicture = useEachTutorialSession?.tutorialPicture ? tutorialPixPath + useEachTutorialSession.tutorialPicture + '?t=' + new Date().getTime(): "<?php echo $websiteUrl ?>/images/defaults.png";
+                            $("#tutorialPicturePreview").attr("src", tutorialPicture).attr("alt", useEachTutorialSession?.tutorialTitle + " Picture");
+                        });
+                    </script>
                 </div>
             </div>
 
@@ -818,13 +299,14 @@
                                     </div>
                                 </div>
 
-                                <input type="file" id="video" name="videoFile" accept="video/*" style="display:none;">
+                                <input type="file" id="tutorialVideo" name="videoFile" accept="video/*" style="display:none;">
                             </div>
+                            <div class="issue-text" id="issues_tutorialVideo"></div>
                         </div>
 
                         <script>
                             $(document).ready(function() {
-                                $("#video").on("change", function(e) {
+                                $("#tutorialVideo").on("change", function(e) {
                                     const file = e.target.files[0];
                                     if (file) {
                                         const fileURL = URL.createObjectURL(file);
@@ -836,9 +318,18 @@
                                 });
 
                                 $("#videoLegend, #videoBackground, #videoFile").on("click", function() {
-                                    $("#video").val(""); // reset to allow reselecting same file
-                                    $("#video").trigger("click");
+                                    $("#tutorialVideo").val(""); // reset to allow reselecting same file
+                                    $("#tutorialVideo").trigger("click");
                                 });
+
+
+                                if (useEachTutorialSession?.tutorialVideo) {
+                                    const videoUrl = `${tutorialVideoPath}${useEachTutorialSession.tutorialVideo + '?t=' + new Date().getTime()}`;
+
+                                    $("#videoFile source").attr("src", videoUrl);
+                                    $("#videoFile").show()[0].load();
+                                    $("#videoBackground").hide();
+                                }
                             });
                         </script>
                     </div>
@@ -855,11 +346,12 @@
                     </div>
 
                     <div class="form-container">
-                        <div class="text_field_container" id="duration_container">
+                        <div class="text_field_container" id="tutorialDuration_container">
                             <script>
                                 textField({
-                                    id: 'duration',
+                                    id: 'tutorialDuration',
                                     title: '00:00:00',
+                                    value: useEachTutorialSession?.tutorialDuration ?? ''
                                 });
                             </script>
                         </div>
@@ -888,16 +380,18 @@
                                             <img src="<?php echo $websiteUrl ?>/images/defaults.png" alt="Default Image">
                                         </div>
                                     </div>
-                                    <input type="file" id="material" name="pdfFile" accept=".pdf" style="display:none;">
+                                    <input type="file" id="tutorialMaterial" name="pdfFile" accept=".pdf" style="display:none;">
                                 </label>
                             </div>
                             <div id="file-list"></div>
+                            <div class="issue-text" id="issues_tutorialMaterial"></div>
                         </div>
+
 
                         <script>
                             $(document).ready(function() {
                                 let $pdfDisplay = $('#pdfDisplay');
-                                let $pdfInput = $('#material');
+                                let $pdfInput = $('#tutorialMaterial');
                                 let $pdfEmbed = $('#pdfFile');
                                 let $fileList = $('#file-list');
 
@@ -913,22 +407,6 @@
                                     // File size
                                     let sizeInMB = (file.size / (1024 * 1024)).toFixed(2);
                                     $fileList.html('File size: ' + sizeInMB + 'MB');
-
-                                    // Get number of pages with PDF.js
-                                    let reader = new FileReader();
-                                    reader.onload = function(e) {
-                                        let typedArray = new Uint8Array(e.target.result);
-
-                                        pdfjsLib.getDocument({
-                                            data: typedArray
-                                        }).promise.then(function(pdf) {
-                                            $fileList.append('<br>File Pages: ' + pdf.numPages);
-                                        }).catch(function(error) {
-                                            console.error("PDF.js error:", error);
-                                            $fileList.append('<br>Could not read number of pages.');
-                                        });
-                                    };
-                                    reader.readAsArrayBuffer(file);
                                 }
 
                                 // Click legend to open file input
@@ -954,6 +432,16 @@
                                     $pdfInput[0].files = e.originalEvent.dataTransfer.files;
                                     showPdf(file);
                                 });
+
+                                // If editing existing, show current PDF
+                                let material = useEachTutorialSession?.tutorialMaterial;
+                                const existingPdf = material;
+                                if (existingPdf) {
+                                    let existingPdfUrl = tutorialMaterialPath + existingPdf + '?t=' + new Date().getTime();
+                                    $pdfDisplay.removeClass('background-display').addClass('embed-display');
+                                    $pdfEmbed.show().attr('src', existingPdfUrl);
+                                    $('#pdfBackground').hide();
+                                }
                             });
                         </script>
                     </div>
@@ -975,14 +463,29 @@
                                 selectField({
                                     id: 'statusId',
                                     title: 'Select Status',
+                                    fieldValue: useEachTutorialSession?.statusData?.statusId ?? '',
+                                    fieldLabel: useEachTutorialSession?.statusData?.statusName ?? ''
                                 });
+                                _getSelectStatusId('statusId', '1,2');
                             </script>
                         </div>
                     </div>
                 </div>
 
+                <div class="alert alert-success" id="validate-progress-alert">
+                    <span>VALIDATING AND PREPARING FILES...</span><br>
+                    Please DO NOT close this panel as the process takes some time.
+                    <div class="validate-ajax-progress">0%</div>
+                </div>
+
+                <div class="alert alert-success" id="progress-alert">
+                    <span>UPLOADING FILES IN PROGRESS...</span><br>
+                    Please DO NOT close this panel as the process takes some time.
+                    <div class="ajax-progress">0%</div>
+                </div>
+
                 <div class="btn-div">
-                    <button class="btn" title="SUBMIT" id="submitBtn" onclick=""> <i class="bi-check"></i> SUBMIT </button>
+                    <button class="btn" title="SUBMIT" id="submitBtn" onclick="_createAndUpdateTutorialVideos();"> <i class="bi-check"></i> SUBMIT </button>
                 </div>
             </div>
         </div>

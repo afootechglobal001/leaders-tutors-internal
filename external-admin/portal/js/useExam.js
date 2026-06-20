@@ -121,6 +121,7 @@ function _uploadExamLogo(newExamLogo, oldExamLogo, message) {
             message: message,
             alertType: 'success',
             trueActionBtnText: 'OK, Thanks.',
+			closeOnOverlayClick: false,
         });
         return;
     }
@@ -146,6 +147,7 @@ function _uploadExamLogo(newExamLogo, oldExamLogo, message) {
             message: message,
             alertType: 'success',
             trueActionBtnText: 'OK, Thanks.',
+			closeOnOverlayClick: false,
         });
     })
     .catch((error) => {
