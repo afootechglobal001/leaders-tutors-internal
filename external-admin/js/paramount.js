@@ -31,12 +31,7 @@ function _getForm(options) {
 		url=''
     } = options;
 
-    // Allow overlay click only for cartForm
-    if (page === "cartForm") {
-      allowOverlayClose = true;
-    } else {
-      allowOverlayClose = false;
-    }
+    allowOverlayClose = false;
 
     const target = layer === 1 ? '#get-form-more-div' : layer === 2  ? '#get-more-div-secondary' : '#get-more-third-layer';
     $(target).css({ 'display': 'flex', 'justify-content': 'center', 'align-items': 'center' }).fadeIn(500);
@@ -289,6 +284,7 @@ function _callFileEndPoints(payLoadProps) {
     formData = null,
     accessKey = false,
     expectJson = true, // default true
+    xhr = null,
   } = payLoadProps;
 
   // const payload = formData && formData.formData ? formData.formData : formData;
@@ -304,6 +300,7 @@ function _callFileEndPoints(payLoadProps) {
       cache: false,
       processData: false,
       headers: getAuthHeaders(accessKey),
+      xhr: xhr || undefined, // 👈 THIS IS THE FIX
       success: function (data) {
         resolve(data);
       },

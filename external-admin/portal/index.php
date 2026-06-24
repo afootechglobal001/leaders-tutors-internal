@@ -12,7 +12,13 @@
 
     <main id="page-content">
         <div id="page-content">
-            <script>_getActivePage({page:'dashboard', divid:'dashboard'});</script>		
+            <script>
+                $(document).ready(function () {
+                    let savedPage = sessionStorage.getItem("currentDashboardPage") ?? "dashboard";
+                    _getActivePage({page: savedPage, divid: savedPage});
+
+                });
+            </script>
         </div> 
     </main>
     <?php include 'bottom-scripts.php'?>
