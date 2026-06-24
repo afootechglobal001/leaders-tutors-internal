@@ -306,8 +306,8 @@ a {
 
 .ajax-loader {
 	position: absolute;
-	width: 120px;
-	height: 120px;
+	width: 70px;
+	height: 70px;
 	border-radius: 10px;
 	background: none;
 	display: flex;
