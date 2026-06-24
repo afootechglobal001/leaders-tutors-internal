@@ -3,8 +3,11 @@
 	$websiteAutoUrl =(isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$appName='Leaders Tutors External Admin'; 
 
-	//$websiteUrl='https://getfoodstuffs.com'; /// For Live Server Url //
+	//$websiteUrl='https://leaderstutors.com/external-admin'; /// For Live Server Url //
 	$websiteUrl='http://localhost/leaders-network/leaders-tutors-internal/external-admin';
+
+	//$websitePath = $_SERVER['DOCUMENT_ROOT'];
+	$websitePath = $_SERVER['DOCUMENT_ROOT'].'/leaders-network/leaders-tutors-internal/external-admin'; //dirname(__FILE__);
 	$codeVersion= date('Ymdhis');
 ?>
 
